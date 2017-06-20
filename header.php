@@ -93,13 +93,13 @@
     </div>
 </div>
 
-<div class="main-screen visible-md-block visible-lg-block">
-    <div class="header visible-md-block visible-lg-block">
+<div class="main-screen">
+    <div class="header">
         <div class="row">
             <div class="col-md-12">
                 <a href="index.php"><img src="imgs/logo.png" alt=""></a>
                 <div class="right-side">
-                    <button id="btn-free-consult">Бесплатная консультация</button>
+                    <button id="btn-free-consult" class="hidden-xs hidden-sm">Бесплатная консультация</button>
                     <div class="cons-phone">
                         <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;
                         <span class="phone-digits">8 800 350 84 70</span> 
@@ -114,17 +114,6 @@
         <div>Мужская</div>
         <div>Бухгалтерская</div>
         <div>Компания</div>
-    </div>
-</div>
-
-<div class="container-fluid visible-xs-block visible-sm-block header-mob">
-    <div class="row">
-        <div class="col-md-12">
-            <a href="index.php"><div class="logo-wrapper-mob"></div></a>
-            <div class="right-side">
-                <button id="btn-free-consult-mob">Бесплатная консультация</button>
-            </div> 
-        </div>
     </div>
 </div>
 

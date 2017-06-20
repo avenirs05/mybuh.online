@@ -135,12 +135,11 @@ a {
 }
 
 .first-man-wrapper {
-	font-size: 42px;
-	border: 2px solid rgb(255, 255, 255);
+	font-size: 28px;
 	width: 33%;
 	margin-left: 70px;
-	text-align: center;
-	margin-top: 30px;
+	text-align: left;
+	margin-top: 60px;
 }
 
 .main-screen-mob h1, h3 {
@@ -1272,11 +1271,9 @@ input[type="checkbox"] {
 	.header .phone-digits {
 		font-size: 41px;
 	} 
-
 	.header .glyphicon-earphone {
 		font-size: 30px;
 	}
-
 	.header button {	
 		font-size: 22px;
 		padding-left: 20px;
@@ -1345,9 +1342,27 @@ input[type="checkbox"] {
 
 @media screen and (max-device-width: 991px) {
 	.container, 
-	.container-fluid {
+	.container-fluid,
+	.main-screen h1,
+	.header {
 		padding-right: 15px; 
 		padding-left: 15px;
+	}
+	.main-screen {
+		background-position: top;
+	}	
+	.header .right-side {
+		margin-bottom: 15px;
+	}
+	.header img {
+		margin-bottom: 15px;
+	}
+	.header .col-md-12 {
+		padding-top: 15px;
+	}
+	.first-man-wrapper {
+		font-size: 24px;
+		margin-left: 15px;
 	}
 	.for-accountants p {
 		padding-left: 0px;
@@ -1442,6 +1457,31 @@ input[type="checkbox"] {
 @media screen and (max-device-width: 767px) {
 	#btn-free-consult-mob {
 		font-size: 11px;
+	}
+	.header .right-side {
+		margin-bottom: 5px;
+	}
+	.header img {
+		margin-bottom: 5px;
+	}
+	.header .col-md-12 {
+		padding-top: 5px;
+	}
+	.header img {
+		width: 40%;
+	}
+	.header .phone-digits {
+		font-size: 22px;
+	}
+	.header .glyphicon-earphone {
+		font-size: 17px;
+	}
+	.first-man-wrapper {
+		margin-left: 15px;
+		font-size: 20px;
+	}
+	.main-screen h1 {
+	    font-size: 28px;
 	}
 }
 
