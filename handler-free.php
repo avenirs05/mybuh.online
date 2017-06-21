@@ -45,7 +45,7 @@ require_once 'functions.php';
 $headers = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 $to = 'domosed365365@gmail.com, fricadelka78@gmail.com, aceking2032@gmail.com, main@pretenzor.ru';
-$subject = "Nulevka.online";
+$subject = "Mybuh.online";
 
 if (isset($_GET['submit-free-consult'])) {  
     $message = '<html><head><title></title></head><body>

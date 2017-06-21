@@ -997,6 +997,10 @@ input[type="checkbox"] {
 
 /*Начало. Переопределенные стили Bootstrap.*/
 
+.modal-title {
+	color: #000000;
+}
+
 .modal-backdrop.in {
 	opacity: .8;
 }
@@ -1409,7 +1413,7 @@ input[type="checkbox"] {
 		font-size: 17px;
 	}
 	.first-man-wrapper {
-		margin-top: 30px;
+		margin-top: 80px;
 		margin-left: 15px;
 		font-size: 20px;
 	}
@@ -1421,6 +1425,7 @@ input[type="checkbox"] {
 	}
 	.btn-connect-wrapper {
 	    margin-left: 15px;
+	    margin-top: 150px;
 	}	
 	.what-can-order ul {
 		margin-left: 10px;

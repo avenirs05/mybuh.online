@@ -55,7 +55,7 @@
                 <button class="btn-check-us visible-md-block visible-lg-block">Проверить нас</button>
             </div>
             <div class="btn-wrapper-mob">
-                <button class="btn-check-us-mob visible-xs-block visible-sm-block">Проверить нас</button>
+                <button class="btn-check-us visible-xs-block visible-sm-block">Проверить нас</button>
             </div>
         </div>
     </div>
@@ -237,7 +237,7 @@
             <button class="btn-check-us visible-md-block visible-lg-block">Начать работу</button>
         </div>
         <div class="btn-wrapper-mob">
-            <button class="btn-check-us-mob visible-xs-block visible-sm-block">Начать работу</button>
+            <button class="btn-check-us visible-xs-block visible-sm-block">Начать работу</button>
         </div>
     </div>
 </div>
