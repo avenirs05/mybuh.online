@@ -115,5 +115,8 @@
         <div>Бухгалтерская</div>
         <div>Компания</div>
     </div>
+    <div class="btn-connect-wrapper">
+        <button id="btn-connect" class="">Связаться с нами</button>
+    </div>
 </div>
 

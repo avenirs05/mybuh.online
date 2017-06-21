@@ -28,63 +28,24 @@
 
 <?php require_once 'header.php'; ?>
 
-<!-- <div class="container-fluid main-screen visible-md-block visible-lg-block">
+<div class="container-fluid for-accountants">
     <div class="row">
-        <div class="col-md-12">
-            <h1>Составление и сдача нулевой отчетности в 3 клика!</h1>
-        </div> 
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <h3>Нулевая отчетность вашей фирмы попадает в налоговую в течение 24 часов</h3>
-        </div> 
-    </div>
-    <div class="row adv-ipad">
-        <div class="col-md-5">
-            <ul>
-                <li><img src="imgs/bullit-47x67.png" alt=""><span>Все регионы России</span></li>
-                <li><img src="imgs/bullit-47x67.png" alt=""><span>Займет не более 120 секунд</span></li>
-                <li><img src="imgs/bullit-47x67.png" alt=""><span>Не нужно платить зарплату бухгалтеру</span></li>
-                <li><img src="imgs/bullit-47x67.png" alt=""><span>Около 2 000 довольных клиентов</span></li>  
-            </ul>            
-        </div> 
-        <div class="col-md-7">
-            <div class="ipad">
-                <a href="company.php" target="_blank"><button class="btn-inside-ipad-1">Сделать нулевку для ООО</button></a>
-                <a href="person.php" target="_blank"><button class="btn-inside-ipad-1 btn-inside-ipad-2">Сделать нулевку для ИП</button></a>
-                <a href="http://mybuh.online/" target="_blank"><button class="btn-inside-ipad-1 btn-inside-ipad-3">Сдать не нулевку</button></a>
-            </div>         
+        <div class="col-md-12" id="for-accountants-link">
+            <h2 class="text-center">Куда вы попали?</h2>
+            <p>Вы находитесь на сайте первой в России бухгалтерской компании, состоящей только из мужчин.</p> <p>Почему так?</p> 
+            <p>Мы искренне считаем, что профессия бухгалтера не для женщин: в ней нет ничего творческого и слишком велика цена ошибки.</p>
+            <p>Поэтому мы решили объединиться, чтобы создать компанию, предлагающую качественно новый уровень бухгалтерского сервиса.</p>
+            <p>Для нас слово важнее бумаги. Мы не станем прикрываться пунктами в договорах: если мы совершаем ошибку, мы за нее отвечаем. Это принципиальная позиция.</p>
+            <p>Мы собрали только проверенных бухгалтеров, имеющих за спиной более 15 лет опыта, прошедших сотни выездных проверок и десятки рейдерских «наездов» силовых структур на компании наших клиентов. Нас нельзя ничем удивить или испугать.</p> 
+            <p>Наши клиенты уверены в нас так же, как в себе.</p>
+            <p>Хотите проверить?</p>
+            <div class="btn-wrapper visible-md-block visible-lg-block">
+                <button id="btn-get-bonus" class="visible-md-block visible-lg-block">Проверить нас</button>
+            </div>
+            <div class="btn-wrapper-mob">
+                <button id="btn-get-bonus-mob" class="visible-xs-block visible-sm-block">Проверить нас</button>
+            </div>
         </div>
-    </div>
-</div> -->
-
-<div class="container-fluid main-screen-mob visible-xs-block visible-sm-block">
-    <div class="row">
-        <div class="col-md-12">
-            <h1>Составление и сдача нулевой отчетности в 3 клика!</h1>
-        </div> 
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <h3>Нулевая отчетность вашей фирмы попадает в налоговую в течение 24 часов</h3>
-        </div> 
-    </div>
-    <div class="row">
-        <div class="col-md-12 btns-wrapper text-center">
-            <a href="company.php" target="_blank"><button>Сделать нулевку для ООО</button></a>
-            <a href="person.php" target="_blank"><button>Сделать нулевку для ИП</button></a>
-            <a href="http://mybuh.online/" target="_blank"><button id="btn-not-null-mob">Сдать не нулевку</button></a>       
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <ul>
-                <li><img src="imgs/bullit-47x67.png" width="18" alt=""><span>Все регионы России</span></li>
-                <li><img src="imgs/bullit-47x67.png" width="18" alt=""><span>Займет не более 120 секунд</span></li>
-                <li><img src="imgs/bullit-47x67.png" width="18" alt=""><span>Не нужно платить зарплату бухгалтеру</span></li>
-                <li><img src="imgs/bullit-47x67.png" width="18" alt=""><span>Около 2 000 довольных клиентов</span></li>  
-            </ul>            
-        </div> 
     </div>
 </div>
 

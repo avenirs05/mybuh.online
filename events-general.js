@@ -4,6 +4,10 @@ $(function () {
 		$('#modal-free-consult').modal('show');
 	});
 
+	$('#btn-connect').click(function() {
+		$('#modal-free-consult').modal('show');
+	});
+
 	$('#btn-free-consult-mob').click(function() {
 		$('#modal-free-consult-mob').modal('show');
 	});

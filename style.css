@@ -57,7 +57,7 @@ a {
 .main-screen {
 	background-color: #000000;
 	color: #ffffff;
-	background-image: url("imgs/main-darked-60-not-cut.jpg");
+	background-image: url("imgs/man-with-gun.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
@@ -91,7 +91,6 @@ a {
 
 .header .right-side {
 	float: right;
-/*	margin-top: 5px;*/
 	display: flex;
 }
 
@@ -107,6 +106,28 @@ a {
 } 
 
 .header button:hover {	
+	background-color: #E7382B;
+} 
+
+.btn-connect-wrapper {
+	margin-top: 30px;
+	margin-left: 70px;
+}
+
+.btn-connect-wrapper button {	
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #000000;
+	border: 2px solid #ffffff;
+	border-radius: 3px;
+	opacity: .7;
+} 
+
+.btn-connect-wrapper button:hover {	
 	background-color: #E7382B;
 } 
 
@@ -615,6 +636,10 @@ a {
 	background-color: #F5F5F5;
 }
 
+.price-wrapper table td {
+	width: 25%;
+}
+
 .header-price {
 	font-weight: bold;	
     border-bottom: 1px solid black;
@@ -827,8 +852,9 @@ input[type="checkbox"] {
 }
 
 .for-accountants {
-	background-color: #028090;
-	color: #ffffff;
+	background-image: url("imgs/red-white-people.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .for-accountants h2 {
@@ -841,8 +867,6 @@ input[type="checkbox"] {
 }
 
 .for-accountants p {
-	padding-left: 65px;
-	padding-right: 65px;
 	font-size: 20px;
 	font-family: Open Sans;	
 }
@@ -858,6 +882,7 @@ input[type="checkbox"] {
 	padding-left: 30px;
 	padding-right: 30px;
 	letter-spacing: 1px;
+	color: #ffffff;
 } 
 
 .for-accountants button:hover {	
@@ -1451,7 +1476,9 @@ input[type="checkbox"] {
 	.what-when-send ul, li, span {
 		margin-bottom: 10px;
 	}
-
+	.btn-connect-wrapper {
+	    margin-left: 15px;
+	}
 }
 
 @media screen and (max-device-width: 767px) {
@@ -1483,6 +1510,12 @@ input[type="checkbox"] {
 	.main-screen h1 {
 	    font-size: 28px;
 	}
+	.main-screen {
+		background-position: 45%;
+	}
+	.btn-connect-wrapper {
+	    margin-left: 15px;
+	}	
 }
 
 
