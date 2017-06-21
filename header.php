@@ -93,7 +93,6 @@
     </div>
 </div>
 
-<div class="main-screen">
     <div class="header">
         <div class="row">
             <div class="col-md-12">
@@ -108,15 +107,6 @@
             </div>
         </div>
     </div>
-    <h1>Дистанционная бухгалтерия по-мужски!</h1>
-    <div class="first-man-wrapper">
-        <div>Первая</div>
-        <div>Мужская</div>
-        <div>Бухгалтерская</div>
-        <div>Компания</div>
-    </div>
-    <div class="btn-connect-wrapper">
-        <button id="btn-connect" class="">Связаться с нами</button>
-    </div>
-</div>
+
+
 

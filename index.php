@@ -26,7 +26,19 @@
 </head>
 <body>
 
-<?php require_once 'header.php'; ?>
+<div class="main-screen">
+    <?php require_once 'header.php'; ?>
+    <h1>Дистанционная бухгалтерия по-мужски!</h1>
+    <div class="first-man-wrapper">
+        <div>Первая</div>
+        <div>Мужская</div>
+        <div>Бухгалтерская</div>
+        <div>Компания</div>
+    </div>
+    <div class="btn-connect-wrapper">
+        <button id="btn-connect" class="">Связаться с нами</button>
+    </div>
+</div>
 
 <div class="container-fluid where-are-you">
     <div class="row">
@@ -40,10 +52,10 @@
             <p>Наши клиенты уверены в нас так же, как в себе.</p>
             <p>Хотите проверить?</p>
             <div class="btn-wrapper visible-md-block visible-lg-block">
-                <button id="btn-check-us" class="visible-md-block visible-lg-block">Проверить нас</button>
+                <button class="btn-check-us visible-md-block visible-lg-block">Проверить нас</button>
             </div>
             <div class="btn-wrapper-mob">
-                <button id="btn-check-us-mob" class="visible-xs-block visible-sm-block">Проверить нас</button>
+                <button class="btn-check-us-mob visible-xs-block visible-sm-block">Проверить нас</button>
             </div>
         </div>
     </div>
@@ -220,6 +232,13 @@
                 <li>Законно сэкономили своим клиентам на налогах более 1,2 млрд рублей</li>
             </ul>              
         </div>
+        <div id="are-you-ready" class="text-center">Решились на сотрудничество?</div>
+        <div class="btn-wrapper visible-md-block visible-lg-block">
+            <button class="btn-check-us visible-md-block visible-lg-block">Начать работу</button>
+        </div>
+        <div class="btn-wrapper-mob">
+            <button class="btn-check-us-mob visible-xs-block visible-sm-block">Начать работу</button>
+        </div>
     </div>
 </div>
 
@@ -228,11 +247,10 @@
     <div class="row">
         <div class="col-md-12" id="for-accountants-link">
             <h2 class="text-center">Для бухгалтеров</h2>         
-            <p>У вас много работы и не хочется возиться с нулевками?</p>
-            <p>Переложите это на нас и заработайте!</p>
-            <p>Передавая нам в работу от 3-х юридических лиц, вы получите на свой телефон по 100 рублей за каждый заказ.</p>
-            <p>Минимальная сумма одного заказа, по которому выплачивается вознаграждение – 1499 рублей.</p>
-            <p>Минимальное количество заказов – 3</p>
+            <p>У вас много работы? Не успеваете в отчетный период?</p>
+            <p>Переложите часть работы на нас и получите бонус 10%!</p>
+            <p>Передавая нам в работу 2 и более компании, вы получите вознаграждение в размере 10% за второй и каждый последующий заказы.</p>
+            <p>Минимальная сумма одного заказа, по которому выплачивается вознаграждение – 2 999 рублей.</p>
             <div class="btn-wrapper visible-md-block visible-lg-block">
                 <button id="btn-get-bonus" class="visible-md-block visible-lg-block">Получить бонус</button>
             </div>

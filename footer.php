@@ -1,7 +1,6 @@
 <div class="container-fluid footer">
     <div class="row">
-        <div class="col-md-12 footer-wrapper">
-            <div class="container-fluid footer">
+        <div class="col-md-12 footer-wrapper">            
                 <div class="row">
                     <div class="col-md-3">
                         <div><a href="privacy-policy.php" target="_blank">Политика конфиденциальности</a></div>
@@ -37,6 +36,7 @@
         </div>
     </div>
 </div>
+
 
 <!-- <script>
     jQuery(function () {

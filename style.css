@@ -110,7 +110,7 @@ a {
 } 
 
 .btn-connect-wrapper {
-	margin-top: 30px;
+	margin-top: 100px;
 	margin-left: 70px;
 }
 
@@ -160,7 +160,7 @@ a {
 	width: 33%;
 	margin-left: 70px;
 	text-align: left;
-	margin-top: 60px;
+	margin-top: 100px;
 }
 
 .main-screen-mob h1, h3 {
@@ -463,6 +463,13 @@ a {
 	margin-bottom: 18px;
 }
 
+#are-you-ready {
+	margin-top: 30px;
+	margin-bottom: 18px;
+	font-size: 18px;
+	font-family: Open Sans;
+}
+
 #look-all-price-mob {
 	margin-top: 20px;
 	margin-bottom: 22px;
@@ -647,11 +654,11 @@ input[type="checkbox"] {
     margin-top: 15px;
 }
 
-.for-accountants {
+/*.for-accountants {
 	background-image: url("imgs/red-white-people.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-}
+}*/
 
 .where-are-you {
 	background-image: url("imgs/red-white-people.jpg");
@@ -670,7 +677,6 @@ input[type="checkbox"] {
 .our-experience {
 	background-color: #333333;
 	color: #ffffff;
-	padding-bottom: 10px;
 }
 
 .for-accountants h2 {
@@ -733,20 +739,7 @@ input[type="checkbox"] {
 	padding-right: 30px;
 	letter-spacing: 1px;
 	color: #ffffff;
-} 
-
-.where-are-you button {	
-	font-size: 22px;
-	font-family: 'Open Sans', sans-serif;
-	background-color: #E7382B;
-	border: 2px solid #ffffff;
-	border-radius: 3px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
-	letter-spacing: 1px;
-	color: #ffffff;
+	border: none;
 } 
 
 .for-accountants button:hover {	
@@ -781,12 +774,28 @@ input[type="checkbox"] {
 	margin-right: auto;
 }
 
-#btn-check-us {
+.btn-check-us {
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #E7382B;
+/*	border: 2px solid #ffffff;*/
+/*	border-radius: 3px;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	border: none;
 }
 
-#btn-check-us-mob {
+.btn-check-us:hover {
+	background-color: #339933;
+}
+
+.btn-check-us-mob {
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -799,7 +808,8 @@ input[type="checkbox"] {
 
 .footer {
 	color: rgb(122, 122, 122);
-	background-color: #333333;
+	opacity: .95;
+	background-color: #000000;
 }
 
 .footer a {
@@ -819,8 +829,6 @@ input[type="checkbox"] {
 }
 
 .footer-wrapper {
-	padding-left: 65px;
-	padding-right: 65px;
 	padding-top: 20px;
 	margin-bottom: 5px;
 }
@@ -1401,6 +1409,7 @@ input[type="checkbox"] {
 		font-size: 17px;
 	}
 	.first-man-wrapper {
+		margin-top: 30px;
 		margin-left: 15px;
 		font-size: 20px;
 	}
