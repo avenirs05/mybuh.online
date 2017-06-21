@@ -207,127 +207,22 @@
     </div>
 </div>
 
-<div class="container-fluid how-it-works visible-md-block visible-lg-block">
+<div class="container-fluid our-experience">
     <div class="row">
-        <div class="col-md-12" id="how-it-works-link">
-            <h2 class="text-center">Как это работает?</h2>       
-            <div class="how-it-works-wrapper">
-                <div class="for-ooo">
-                    <h4 class="text-center">Для юридических лиц</h4>
-                    <p>1. Отправьте <a href="company.php" target="_blank">заявку</a> на сдачу «нулевки»</p> 
-                    <p>2. Оплатите услуги любым удобным способом <a onclick="return false;" href="#"  data-toggle="tooltip" data-placement="right" title="Банковской картой, Яндекс-деньги, С баланса мобильного, Qiwi"><span class="glyphicon glyphicon-question-sign"></span></a></p> 
-                    <p>3. Подпишите и отправьте нам любым способом доверенность, которую вы получите на E-mail <a onclick="return false;" href="#" data-toggle="tooltip" data-placement="right" title="Email, WhatsApp, Viber, Telegram"><span class="glyphicon glyphicon-question-sign"></span></a></p> 
-                    <p>4. Получите отчет о сдаче вашей «нулевки» в течение 24 часов!</p>         
-                </div>
-                <div class="for-ip">
-                    <h4 class="text-center">Для ИП</h4> 
-                    <p>1. Отправьте <a href="person.php" target="_blank">заявку</a> на составление «нулевки»</p>
-                    <p>2. Оплатите услуги любым удобным способом <a onclick="return false;" href="#"  data-toggle="tooltip" data-placement="right" title="Банковской картой, Яндекс-деньги, С баланса мобильного, Qiwi"><span class="glyphicon glyphicon-question-sign"></span></a></p>
-                    <p>3. Получите составленную отчетность на свой e-mail в течение 24 часов</p> 
-                    <p>4. Подпишите и подайте в налоговую в соответствии с инструкцией <a onclick="return false;" href="#"  data-toggle="tooltip" data-placement="right" title="Инструкцию вы получите на email вместе с подготовленной отчетностью"><span class="glyphicon glyphicon-question-sign"></span></a></p>         
-                </div>
-            </div>
+        <div class="col-md-12">
+            <h2 class="text-center">Наш опыт</h2>
+            <ul>
+                <li>Работаем с 2002 года</li>
+                <li>Ведем абонентское обслуживание более 150 фирм и ИП</li>
+                <li>Проходим повышение квалификации не реже 1 раза в год</li>
+                <li>Имеем практические знания в 19 отраслях – от торговли бетоном до нанотехнологий</li>
+                <li>Прошли с клиентами более 500 налоговых проверок</li>
+                <li>Законно сэкономили своим клиентам на налогах более 1,2 млрд рублей</li>
+            </ul>              
         </div>
     </div>
 </div>
 
-<div class="container-fluid how-it-works-mob visible-xs-block visible-sm-block">
-    <div class="row">
-        <div class="col-md-12" id="how-it-works-link-mob">
-            <h2 class="text-center">Как это работает?</h2>       
-            <div class="how-it-works-wrapper-mob">
-                <div class="for-ooo-mob">
-                    <h4 class="text-center">Для юридических лиц</h4>
-                    <p>1. Отправьте <a href="company.php" target="_blank">заявку</a> на сдачу «нулевки»</p> 
-                    <p>2. Оплатите услуги любым удобным способом <a onclick="return false;" href="#"  data-toggle="tooltip" data-placement="right" title="Банковской картой, Яндекс-деньги, С баланса мобильного, Qiwi"><span class="glyphicon glyphicon-question-sign"></span></a></p> 
-                    <p>3. Подпишите и отправьте нам любым способом доверенность, которую вы получите на E-mail <a onclick="return false;" href="#" data-toggle="tooltip" data-placement="right" title="Email, WhatsApp, Viber, Telegram"><span class="glyphicon glyphicon-question-sign"></span></a></p> 
-                    <p>4. Получите отчет о сдаче вашей «нулевки» в течение 24 часов!</p>         
-                </div>
-                <div class="for-ip-mob">
-                    <h4 class="text-center">Для ИП</h4> 
-                    <p>1. Отправьте <a href="person.php" target="_blank">заявку</a> на составление «нулевки»</p> 
-                    <p>2. Оплатите услуги любым удобным способом <a onclick="return false;" href="#"  data-toggle="tooltip" data-placement="right" title="Банковской картой, Яндекс-деньги, С баланса мобильного, Qiwi"><span class="glyphicon glyphicon-question-sign"></span></a></p>
-                    <p>3. Получите составленную отчетность на свой e-mail в течение 24 часов</p> 
-                    <p>4. Подпишите и подайте в налоговую в соответствии с инструкцией<a onclick="return false;" href="#"  data-toggle="tooltip" data-placement="right" title="Инструкцию вы получите на email вместе с подготовленной отчетностью"><span class="glyphicon glyphicon-question-sign"></span></a></p>        
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- <div class="container-fluid how-much visible-md-block visible-lg-block">
-    <div class="row">
-        <div id="price-link" class="col-md-12 price-wrapper">
-            <h2 class="text-center">Сколько это стоит?</h2>
-            <table class="table table-bordered">               
-                <tr>
-                    <th class="text-center">ИП на УСН</th>
-                    <th class="text-center">ИП на ОСН</th>
-                    <th class="text-center">ООО на УСН</th>
-                    <th class="text-center">ООО на ОСН</th>
-                </tr>
-                <tr>
-                    <td class="text-center">Подготовка годовой налоговой декларации без отправки в ИФНС</td>
-                    <td class="text-center">Подготовка годовой налоговой декларации без отправки в ИФНС</td>
-                    <td class="text-center">Подготовка и отправка в ИФНС квартальной отчетности</td>
-                    <td class="text-center">Подготовка и отправка в ИФНС квартальной отчетности</td>
-                </tr>
-                <tr>
-                    <td class="text-center cell-price">299 руб.</td>
-                    <td class="text-center cell-price">499 руб.</td>
-                    <td class="text-center cell-price">от 999 руб.</td>
-                    <td class="text-center cell-price">от 1 499 руб.</td>
-                </tr>
-            </table>       
-            <div id="look-all-price" class="text-center">
-                <a href="company.php" target="_blank">Рассчитать стоимость для ООО</a><br><br>
-                <a href="person.php" target="_blank">Рассчитать стоимость для ИП</a><br><br>
-                <a href="price.php" target="_blank">Посмотреть полный прайс-лист</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid how-much-mob visible-xs-block visible-sm-block">
-    <div class="row">
-        <div id="price-link-mob" class="col-md-12 price-wrapper-mob">
-            <h2 class="text-center">Сколько это стоит?</h2>
-            <table class="table table-bordered">               
-                <tr>
-                    <th class="text-center">ИП на УСН</th>
-                    <th class="text-center">ИП на ОСН</th>
-                </tr>
-                <tr>
-                    <td class="text-center">Подготовка годовой налоговой декларации без отправки в ИФНС</td>
-                    <td class="text-center">Подготовка годовой налоговой декларации без отправки в ИФНС</td>
-                </tr>
-                <tr>
-                    <td class="text-center cell-price">299 руб.</td>
-                    <td class="text-center cell-price">499 руб.</td>
-                </tr>
-            </table> 
-            <table class="table table-bordered">               
-                <tr>
-                    <th class="text-center">ООО на УСН</th>
-                    <th class="text-center">ООО на ОСН</th>
-                </tr>
-                <tr>
-                    <td class="text-center">Подготовка и отправка в ИФНС квартальной отчетности</td>
-                    <td class="text-center">Подготовка и отправка в ИФНС квартальной отчетности</td>
-                </tr>
-                <tr>
-                    <td class="text-center cell-price">от 999 руб.</td>
-                    <td class="text-center cell-price">от 1 499 руб.</td>
-                </tr>
-            </table>      
-            <div id="look-all-price-mob" class="text-center">
-                <a href="company.php" target="_blank">Рассчитать стоимость для ООО</a><br><br>
-                <a href="person.php" target="_blank">Рассчитать стоимость для ИП</a><br><br>
-                <a href="price.php" target="_blank">Посмотреть полный прайс-лист</a>
-            </div>
-        </div>
-    </div>
-</div> -->
 
 <div class="container-fluid for-accountants">
     <div class="row">

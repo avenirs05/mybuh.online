@@ -329,146 +329,6 @@ a {
 	color: #ffffff;
 }
 
-.ipad a {
-	color: #ffffff;
-}
-
-.how-it-works {
-	background-color: #F5F5F5;
-}
-
-.how-it-works-mob {
-	background-color: #F5F5F5;
-}
-
-.how-it-works h2 {
-	font-size: 36px;
-	font-weight: 700;
-	font-family: 'Open Sans Condensed', sans-serif;
-	letter-spacing: 2px;
-	margin-bottom: 30px;
-	margin-top: 25px;
-}
-
-.how-it-works-mob h2 {
-	font-size: 28px;
-	font-weight: 700;
-	font-family: 'Open Sans Condensed', sans-serif;
-	letter-spacing: 2px;
-	margin-bottom: 30px;
-	margin-top: 25px;
-}
-
-.how-it-works-wrapper {
-	padding-left: 65px;
-	padding-right: 65px;
-	margin-bottom: 40px;
-	display: flex;
-}
-
-.for-ooo {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	background-color: #ffffff;
-	border: 1px solid #000000;
-	border-radius: 4px;
-	width: 48%;
-	box-shadow: 6px 6px 8px rgba(0,0,0,0.76);
-	margin-right: auto;
-}
-
-.for-ip {
-	background-color: #ffffff;
-	border: 1px solid #000000;
-	border-radius: 4px;
-	width: 48%;
-	box-shadow: 6px 6px 8px rgba(0,0,0,0.76);
-	margin-left: auto;
-}
-
-/*.how-it-works-wrapper {
-	padding-left: 65px;
-	padding-right: 65px;
-}
-
-.for-ooo {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	background-color: #ffffff;
-	border: 1px solid #000000;
-	border-radius: 4px;
-	width: 48%;
-	float: left;
-	margin-bottom: 40px;
-	box-shadow: 6px 6px 8px rgba(0,0,0,0.76);
-}
-
-.for-ip {
-	background-color: #ffffff;
-	border: 1px solid #000000;
-	border-radius: 4px;
-	width: 48%;
-	float: right;
-	margin-bottom: 40px;
-	box-shadow: 6px 6px 8px rgba(0,0,0,0.76);
-}*/
-
-
-.for-ooo-mob {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	background-color: #ffffff;
-	border: 1px solid #000000;
-	border-radius: 4px;
-	width: 100%;
-	float: left;
-	margin-bottom: 40px;
-	box-shadow: 6px 6px 8px rgba(0,0,0,0.76);
-}
-
-
-.for-ip-mob {
-	background-color: #ffffff;
-	border: 1px solid #000000;
-	border-radius: 4px;
-	width: 100%;
-	float: left;
-	margin-bottom: 40px;
-	box-shadow: 6px 6px 8px rgba(0,0,0,0.76);
-}
-
-.for-ooo h4, .for-ip h4 {
-	font-family: Open Sans;
-	margin-top: 30px;
-	margin-bottom: 20px;
-	font-weight: bold;
-	font-size: 20px;
-}
-
-.for-ooo p, .for-ip p {	
-	font-family: Open Sans;
-	font-size: 18px;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	margin-left: 20px;
-}
-
-.for-ooo-mob h4, .for-ip-mob h4 {
-	font-family: Open Sans;
-	margin-top: 30px;
-	margin-bottom: 20px;
-	font-weight: bold;
-	font-size: 20px;
-}
-
-.for-ooo-mob p, .for-ip-mob p {	
-	font-family: Open Sans;
-	font-size: 18px;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	margin-left: 20px;
-}
-
 .how-much h2 {
 	font-size: 36px;
 	font-weight: 700;
@@ -807,6 +667,12 @@ input[type="checkbox"] {
 	padding-bottom: 10px;
 }
 
+.our-experience {
+	background-color: #333333;
+	color: #ffffff;
+	padding-bottom: 10px;
+}
+
 .for-accountants h2 {
 	font-size: 36px;
 	font-weight: 700;
@@ -817,7 +683,8 @@ input[type="checkbox"] {
 }
 
 .where-are-you h2,
-.what-can-order h2 {
+.what-can-order h2,
+.our-experience h2 {
 	font-size: 36px;
 	font-weight: 700;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -845,6 +712,15 @@ input[type="checkbox"] {
 	margin-left: 20px;
 }
 
+
+.our-experience li {
+	font-size: 20px;
+	font-family: Open Sans;	
+}
+
+.our-experience ul {
+	margin-left: 20px;
+}
 .for-accountants button {	
 	font-size: 22px;
 	font-family: 'Open Sans', sans-serif;
