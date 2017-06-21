@@ -24,4 +24,12 @@ $(function () {
 		$('#modal-for-accountants-mob').modal('show');
 	});
 
+	$('#btn-check-us').click(function() {
+		$('#modal-for-accountants').modal('show');
+	});
+
+	$('#btn-check-us-mob').click(function() {
+		$('#modal-for-accountants-mob').modal('show');
+	});
+
 });

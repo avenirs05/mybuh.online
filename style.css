@@ -857,6 +857,20 @@ input[type="checkbox"] {
 	background-size: cover;
 }
 
+.where-are-you {
+	background-image: url("imgs/red-white-people.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.what-can-order {
+	background-image: url("imgs/man-in-black.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	padding-bottom: 10px;
+}
+
 .for-accountants h2 {
 	font-size: 36px;
 	font-weight: 700;
@@ -866,9 +880,33 @@ input[type="checkbox"] {
 	margin-top: 25px;
 }
 
+.where-are-you h2,
+.what-can-order h2 {
+	font-size: 36px;
+	font-weight: 700;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+
 .for-accountants p {
+	font-size: 22px;
+	font-family: Open Sans;	
+}
+
+.where-are-you p {
 	font-size: 20px;
 	font-family: Open Sans;	
+}
+
+.what-can-order li {
+	font-size: 20px;
+	font-family: Open Sans;	
+}
+
+.what-can-order ul {
+	margin-left: 20px;
 }
 
 .for-accountants button {	
@@ -885,7 +923,25 @@ input[type="checkbox"] {
 	color: #ffffff;
 } 
 
+.where-are-you button {	
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #E7382B;
+	border: 2px solid #ffffff;
+	border-radius: 3px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	letter-spacing: 1px;
+	color: #ffffff;
+} 
+
 .for-accountants button:hover {	
+	background-color: #339933;
+} 
+
+.where-are-you button:hover {	
 	background-color: #339933;
 } 
 
@@ -909,6 +965,16 @@ input[type="checkbox"] {
 }
 
 #btn-get-bonus-mob {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#btn-check-us {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#btn-check-us-mob {
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -1394,7 +1460,23 @@ input[type="checkbox"] {
 		padding-right: 0px;
 		font-size: 18px;
 	}
+	.where-are-you p {
+		padding-left: 0px;
+		padding-right: 0px;
+		font-size: 18px;
+	}
+	.what-can-order li {
+		padding-left: 0px;
+		padding-right: 0px;
+		font-size: 18px;
+	}
 	.for-accountants h2 {
+		font-size: 28px;
+	}
+	.where-are-you h2 {
+		font-size: 28px;
+	}
+	.what-can-order h2 {
 		font-size: 28px;
 	}
 	.footer-wrapper {
@@ -1479,6 +1561,9 @@ input[type="checkbox"] {
 	.btn-connect-wrapper {
 	    margin-left: 15px;
 	}
+	.what-can-order ul {
+		margin-left: 15px;
+	}
 }
 
 @media screen and (max-device-width: 767px) {
@@ -1516,6 +1601,9 @@ input[type="checkbox"] {
 	.btn-connect-wrapper {
 	    margin-left: 15px;
 	}	
+	.what-can-order ul {
+		margin-left: 10px;
+	}
 }
 
 

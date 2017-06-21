@@ -28,9 +28,9 @@
 
 <?php require_once 'header.php'; ?>
 
-<div class="container-fluid for-accountants">
+<div class="container-fluid where-are-you">
     <div class="row">
-        <div class="col-md-12" id="for-accountants-link">
+        <div class="col-md-12">
             <h2 class="text-center">Куда вы попали?</h2>
             <p>Вы находитесь на сайте первой в России бухгалтерской компании, состоящей только из мужчин.</p> <p>Почему так?</p> 
             <p>Мы искренне считаем, что профессия бухгалтера не для женщин: в ней нет ничего творческого и слишком велика цена ошибки.</p>
@@ -40,11 +40,29 @@
             <p>Наши клиенты уверены в нас так же, как в себе.</p>
             <p>Хотите проверить?</p>
             <div class="btn-wrapper visible-md-block visible-lg-block">
-                <button id="btn-get-bonus" class="visible-md-block visible-lg-block">Проверить нас</button>
+                <button id="btn-check-us" class="visible-md-block visible-lg-block">Проверить нас</button>
             </div>
             <div class="btn-wrapper-mob">
-                <button id="btn-get-bonus-mob" class="visible-xs-block visible-sm-block">Проверить нас</button>
+                <button id="btn-check-us-mob" class="visible-xs-block visible-sm-block">Проверить нас</button>
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid what-can-order">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-center">Что можно у нас заказать?</h2>
+            <ul>
+                <li>Ведение и восстановление бухгалтерского учета</li>
+                <li>Составление и сдачу отчетности в ИФНС, ПФР, ФСС, Росстат</li>
+                <li>Расчет налогов и обязательных взносов</li>
+                <li>Оптимизацию налогообложения</li>
+                <li>Сопровождение камеральных и выездных налоговых проверок</li>
+                <li>Налоговые и бухгалтерские консультации</li>
+                <li>Аудит</li>
+                <li>Любую другую помощь в области налогов и бухучета</li>
+            </ul>              
         </div>
     </div>
 </div>
