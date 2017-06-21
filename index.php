@@ -67,82 +67,141 @@
     </div>
 </div>
 
-<div class="container-fluid for-whom visible-md-block visible-lg-block">
+<div class="container-fluid compare-with-buh visible-md-block visible-lg-block">
     <div class="row">
-        <div class="col-md-12">
-            <h2 class="text-center">Для кого наш сервис</h2>
-                <img src="imgs/crowd-for-whom.jpg" width="400" alt="">            
-                <p>• Для юридических лиц и индивидуальных предпринимателей, которые только начинают свой бизнес и еще не имеют поступлений на расчетный счет или в кассу.</p>
-                <p>• Для компаний и ИП, которые временно приостановили свою деятельность, но планируют ее возобновить в будущем</p>
-                <p>• Для бухгалтеров, которые в отчетный период не успевают сдавать отчетность по всем своим организациям</p>          
+        <div id="price-link" class="col-md-12 compare-wrapper">
+            <h2 class="text-center">Почему мы, а не бухгалтер в штате?</h2>
+            <table class="table table-bordered">               
+                <tr>
+                    <th class="text-center">Бухгалтер в штате</th>
+                    <th class="text-center">Мы</th>
+                </tr>
+                <tr class="success">
+                    <td class="text-center">Работает 8 часов в день с выходными</td>
+                    <td class="text-center">Работаем в 2 раза больше и без выходных</td>
+                </tr>
+                <tr>
+                    <td class="text-center">Нужно платить зарплату независимо от выполненной работы. Нужно удерживать НДФЛ, ПФР, ФСС.</td>
+                    <td class="text-center">Платите нам только за результат. Налоги за себя платим самостоятельно.</td>
+                </tr>
+                <tr class="success">
+                    <td class="text-center">Уходит в отпуск каждый год. Берет отгулы, больничные и просто опаздывает на работу. Иногда уходит в декрет. Надолго.</td>
+                    <td class="text-center">У нас нет отпусков и больничных. Мы не отпрашиваемся пораньше, чтобы успеть на день рождения к свекрови, и не ездим на дачу по пятницам. </td>
+                </tr>
+                <tr>
+                    <td class="text-center">Любит поболтать в свободное от работы время. Зачастую о том, о чем болтать не стОит.</td>
+                    <td class="text-center">Не задаем лишних вопросов. Не выдаем секретов, даже если нас сильно просят. Никому.</td>
+                </tr>
+                <tr class="success">
+                    <td class="text-center">Хранит документы на своем компьютере. Данные не защищены и доступны недружественным структурам</td>
+                    <td class="text-center">Все документы и информацию храним в зашифрованном виде на удаленных серверах в физически недосягаемой зоне</td>
+                </tr>
+            </table>       
         </div>
     </div>
 </div>
 
-<div class="container-fluid for-whom-mob visible-xs-block visible-sm-block">
+<div class="container-fluid compare-with-buh-mob visible-xs-block visible-sm-block">
     <div class="row">
-        <div class="col-md-12">
-            <h2 class="text-center">Для кого наш сервис</h2>     
-                <p>• Для юридических лиц и индивидуальных предпринимателей, которые только начинают свой бизнес и еще не имеют поступлений на расчетный счет или в кассу.</p>
-                <p>• Для компаний и ИП, которые временно приостановили свою деятельность, но планируют ее возобновить в будущем</p>
-                <p>• Для бухгалтеров, которые в отчетный период не успевают сдавать отчетность по всем своим организациям</p>          
+        <div id="price-link" class="col-md-12 compare-wrapper-mob">
+            <h2 class="text-center">Почему мы, а не бухгалтер в штате?</h2>
+            <table class="table table-bordered">               
+                <tr>
+                    <th class="text-center">Бухгалтер в штате</th>
+                    <th class="text-center">Мы</th>
+                </tr>
+                <tr class="success">
+                    <td class="text-center">Работает 8 часов в день с выходными</td>
+                    <td class="text-center">Работаем в 2 раза больше и без выходных</td>
+                </tr>
+                <tr>
+                    <td class="text-center">Нужно платить зарплату независимо от выполненной работы. Нужно удерживать НДФЛ, ПФР, ФСС.</td>
+                    <td class="text-center">Платите нам только за результат. Налоги за себя платим самостоятельно.</td>
+                </tr>
+                <tr class="success">
+                    <td class="text-center">Уходит в отпуск каждый год. Берет отгулы, больничные и просто опаздывает на работу. Иногда уходит в декрет. Надолго.</td>
+                    <td class="text-center">У нас нет отпусков и больничных. Мы не отпрашиваемся пораньше, чтобы успеть на день рождения к свекрови, и не ездим на дачу по пятницам. </td>
+                </tr>
+                <tr>
+                    <td class="text-center">Любит поболтать в свободное от работы время. Зачастую о том, о чем болтать не стОит.</td>
+                    <td class="text-center">Не задаем лишних вопросов. Не выдаем секретов, даже если нас сильно просят. Никому.</td>
+                </tr>
+                <tr class="success">
+                    <td class="text-center">Хранит документы на своем компьютере. Данные не защищены и доступны недружественным структурам</td>
+                    <td class="text-center">Все документы и информацию храним в зашифрованном виде на удаленных серверах в физически недосягаемой зоне</td>
+                </tr>
+            </table>       
         </div>
     </div>
 </div>
 
-<div class="container-fluid why-us visible-md-block visible-lg-block">
+<div class="container-fluid how-much visible-md-block visible-lg-block">
     <div class="row">
-        <div class="col-md-12">
-            <h2 class="text-center">Почему нулевую отчетность нужно отправлять через нас?</h2>            
-            <div class="advantages-wrapper">
-                <div class="advantage-item">
-                    <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-                    <span  class="advantage-item-text">Это займет не более 120 секунд вашего времени</span> 
-                </div>
-                <div class="advantage-item">
-                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span> 
-                    <span class="advantage-item-text">Не нужно платить зарплату бухгалтеру</span>
-                </div>
-                <div class="advantage-item">
-                    <span class="glyphicon glyphicon-plane" aria-hidden="true"></span> 
-                    <span class="advantage-item-text">«Нулевка» попадет в налоговую за 24 часа*</span>
-                </div>
-                <div class="advantage-item">
-                    <span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
-                    <span class="advantage-item-text">Мы напомним вам о сдаче отчетности в следующем квартале</span>
-                </div>
-                <div id="only-for-companies">
-                    <span>*применимо только для юридических лиц</span>
-                </div>
+        <div id="price-link" class="col-md-12 price-wrapper">
+            <h2 class="text-center">Сколько это стоит?</h2>
+            <table class="table table-bordered">               
+                <tr>
+                    <th class="text-center">«ЭКОНОМ»</th>
+                    <th class="text-center">«БИЗНЕС»</th>
+                    <th class="text-center">«БИЗНЕС+»</th>
+                </tr>
+                <tr>
+                    <td class="text-center">Для компаний и предпринимателей, которые имеют небольшой документооборот, совершают не более 30 хозяйственных операций в месяц и применяют специальные режимы налогообложения(«упрощенка», «вмененка», «патент»)</td>
+                    <td class="text-center">Для компаний и предпринимателей, которые имеют небольшой документооборот, совершают не более 50 хозяйственных операций в месяц и применяют различные режимы налогообложения</td>
+                    <td class="text-center">Включает комплексное бухгалтерское сопровождение, пакет консультаций по правовым и налоговым вопросам</td>
+                </tr>
+                <tr>
+                    <td class="text-center cell-price">от 3 000 руб. в месяц</td>
+                    <td class="text-center cell-price">от 4 500 руб. в месяц</td>
+                    <td class="text-center cell-price">от 7 000 руб. в месяц</td>
+                </tr>
+            </table>       
+            <div id="look-all-price" class="text-center">
+                <a href="price.php" target="_blank">Посмотреть полный прайс-лист</a>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container-fluid why-us-mob visible-xs-block visible-sm-block">
+<div class="container-fluid how-much-mob visible-xs-block visible-sm-block">
     <div class="row">
-        <div class="col-md-12">
-            <h2 class="text-center">Почему нулевую отчетность нужно отправлять через нас?</h2>            
-            <div class="advantages-wrapper-mob">
-                <div class="advantage-item-mob text-center">
-                    <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-                    <span  class="advantage-item-text-mob">Это займет не более 120 секунд вашего времени</span> 
-                </div>
-                <div class="advantage-item-mob text-center">
-                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span> 
-                    <span class="advantage-item-text-mob">Не нужно платить зарплату бухгалтеру</span>
-                </div>
-                <div class="advantage-item-mob text-center">
-                    <span class="glyphicon glyphicon-plane" aria-hidden="true"></span> 
-                    <span class="advantage-item-text-mob">«Нулевка» попадет в налоговую за 24 часа*</span>
-                </div>
-                <div class="advantage-item-mob text-center">
-                    <span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
-                    <span class="advantage-item-text-mob">Мы напомним вам о сдаче отчетности в следующем квартале</span>
-                </div>
-                <div id="only-for-companies-mob">
-                    <span>*применимо только для юридических лиц</span>
-                </div>
+        <div id="price-link-mob" class="col-md-12 price-wrapper-mob">
+            <h2 class="text-center">Сколько это стоит?</h2>
+            <table class="table table-bordered">               
+                <tr>
+                    <th class="text-center">«ЭКОНОМ»</th>
+                </tr>
+                <tr>
+                    <td class="text-center">Для компаний и предпринимателей, которые имеют небольшой документооборот, совершают не более 30 хозяйственных операций в месяц и применяют специальные режимы налогообложения(«упрощенка», «вмененка», «патент»)</td>
+                </tr>
+                <tr>
+                    <td class="text-center cell-price">499 руб.</td>
+                </tr>
+            </table>
+            <table class="table table-bordered">               
+                <tr>
+                    <th class="text-center">«БИЗНЕС»</th>
+                </tr>
+                <tr>
+                    <td class="text-center">Для компаний и предпринимателей, которые имеют небольшой документооборот, совершают не более 50 хозяйственных операций в месяц и применяют различные режимы налогообложения</td>
+                </tr>
+                <tr>
+                    <td class="text-center cell-price">499 руб.</td>
+                </tr>
+            </table> 
+            <table class="table table-bordered last-table">               
+                <tr>
+                    <th class="text-center">«БИЗНЕС+»</th>
+                </tr>
+                <tr>
+                    <td class="text-center">Включает комплексное бухгалтерское сопровождение, пакет консультаций по правовым и налоговым вопросам</td>
+                </tr>
+                <tr>
+                    <td class="text-center cell-price">499 руб.</td>
+                </tr>
+            </table>     
+            <div id="look-all-price-mob" class="text-center">
+                <a href="price.php" target="_blank">Посмотреть полный прайс-лист</a>
             </div>
         </div>
     </div>
@@ -196,7 +255,7 @@
     </div>
 </div>
 
-<div class="container-fluid how-much visible-md-block visible-lg-block">
+<!-- <div class="container-fluid how-much visible-md-block visible-lg-block">
     <div class="row">
         <div id="price-link" class="col-md-12 price-wrapper">
             <h2 class="text-center">Сколько это стоит?</h2>
@@ -268,7 +327,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="container-fluid for-accountants">
     <div class="row">

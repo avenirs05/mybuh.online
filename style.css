@@ -333,136 +333,6 @@ a {
 	color: #ffffff;
 }
 
-.for-whom h2 {
-	font-size: 36px;
-	font-weight: 700;
-	font-family: 'Open Sans Condensed', sans-serif;
-	letter-spacing: 2px;
-	margin-bottom: 20px;
-	margin-top: 25px;
-}
-
-.for-whom-mob h2 {
-	font-size: 28px;
-	font-weight: 700;
-	font-family: 'Open Sans Condensed', sans-serif;
-	letter-spacing: 2px;
-	margin-bottom: 15px;
-	margin-top: 20px;
-}
-
-.why-us h2 {
-	font-size: 36px;
-	font-weight: 700;
-	font-family: 'Open Sans Condensed', sans-serif;
-	letter-spacing: 2px;
-	margin-bottom: 30px;
-	margin-top: 35px;
-}
-
-.why-us-mob {
-	background-color: #028090;
-	color: #ffffff;
-}
-
-.why-us-mob h2 {
-	font-size: 28px;
-	font-weight: 700;
-	font-family: 'Open Sans Condensed', sans-serif;
-	letter-spacing: 2px;
-	margin-bottom: 35px;
-	margin-top: 30px;
-}
-
-.why-us-mob p,
-.advantages-wrapper-mob {
-	font-size: 18px;
-	font-family: Open Sans;	
-}
-
-.why-us {
-	background-color: #028090;
-	color: #ffffff;
-}
-
-.glyphicon-plane,
-.glyphicon-time,
-.glyphicon-bell,
-.glyphicon-usd {
-	font-size: 50px;
-	margin-right: 20px;
-}
-
-.why-us-mob .glyphicon-plane,
-.why-us-mob .glyphicon-time,
-.why-us-mob .glyphicon-bell,
-.why-us-mob .glyphicon-usd {
-	display: block;
-	margin-bottom: 5px;
-	margin-right: 0px;
-}
-
-.advantage-item-mob {
-	margin-bottom: 40px;
-}
-
- 
-.why-us p,
-.advantages-wrapper {
-	padding-left: 65px;
-	padding-right: 65px;
-	font-size: 20px;
-	font-family: Open Sans;	
-}
-
-.for-whom p {
-	padding-left: 100px;
-	padding-right: 100px;
-	font-size: 18px;
-	font-family: Open Sans;	
-}
-
-.for-whom-mob p {
-	font-size: 18px;
-	font-family: Open Sans;	
-}
-
-.for-whom img {
-	float: left;
-	margin-left: 65px;
-	margin-right: 15px;
-	margin-bottom: 30px;
-}
-
-.for-whom p:last-child {
-	margin-bottom: 35px;
-}
-
-.for-whom-mob p:last-child {
-	margin-bottom: 20px;
-}
-
-.advantage-item {
-	margin-bottom: 30px;
-	position: relative;
-}
-
-#only-for-companies {
-	font-size: 14px;
-	margin-bottom: 30px;
-}
-
-#only-for-companies-mob {
-	font-size: 12px;
-	margin-bottom: 20px;
-	margin-top: -20px;
-}
-
-.advantage-item-text {
-	position: absolute;
-	top: 20%;
-}
-
 .how-it-works {
 	background-color: #F5F5F5;
 }
@@ -605,6 +475,15 @@ a {
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: 2px;
 	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.compare-with-buh h2 {
+	font-size: 36px;
+	font-weight: 700;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
 	margin-top: 25px;
 }
 
@@ -617,11 +496,28 @@ a {
 	margin-top: 25px;
 }
 
+.compare-with-buh-mob {
+	background-color: #F5F5F5;
+}
+
+.compare-with-buh-mob h2 {
+	font-size: 28px;
+	font-weight: 700;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+	margin-top: 25px;
+}
+
 .price-wrapper {
-	padding-left: 80px;
-	padding-right: 80px;
 	font-family: Open Sans;
 	margin-bottom: 15px;	
+}
+
+.compare-with-buh {
+	font-family: Open Sans;
+	margin-bottom: 15px;	
+	background-color: #F5F5F5;
 }
 
 .price-wrapper table {
@@ -630,14 +526,54 @@ a {
 	background-color: #F5F5F5;
 }
 
+.how-much-mob table {
+	margin-bottom: 30px;
+}
+
+.how-much-mob .last-table{
+	margin-bottom: 0px;
+}
+
+.compare-wrapper {
+	margin-bottom: 20px; 
+}
+
+.compare-wrapper table td {
+	width: 33.3%;
+}
+
+.compare-wrapper-mob {
+	margin-bottom: 30px; 
+}
+
+
+.compare-wrapper table {
+	font-family: Open Sans;
+	font-size: 18px;
+
+}
+
 .price-wrapper-mob table {
 	font-family: Open Sans;
 	font-size: 18px;
 	background-color: #F5F5F5;
 }
 
+.compare-wrapper-mob table {
+	font-family: Open Sans;
+	font-size: 18px;
+}
+
 .price-wrapper table td {
 	width: 25%;
+}
+
+.compare-wrapper table td {
+	width: 50%;
+}
+
+.compare-wrapper-mob table td {
+	width: 50%;
 }
 
 .header-price {
@@ -1606,6 +1542,10 @@ input[type="checkbox"] {
 	}
 }
 
+@media screen and (max-device-width: 379px) {
+	.compare-wrapper-mob table {
+	    font-size: 15px;
+}
 
 
 
