@@ -242,8 +242,26 @@
     </div>
 </div>
 
+<div class="container-fluid for-accountants visible-md-block visible-lg-block">
+    <div class="row">
+        <h2 class="text-center">Для бухгалтеров</h2>  
+        <div class="col-md-12 calc-and-text-wrapper">
+            <div class="calc-wrapper"></div>
+            <div class="for-accs-text-wrapper">                       
+                <p>У вас много работы? Не успеваете в отчетный период?</p>
+                <p>Переложите часть работы на нас и получите бонус 10%!</p>
+                <p>Передавая нам в работу 2 и более компании, вы получите вознаграждение в размере 10% за второй и каждый последующий заказы.</p>
+                <p>Минимальная сумма одного заказа, по которому выплачивается вознаграждение – 2 999 рублей.</p>
+            </div>
+        </div>
+        <div>
+            <button id="btn-get-bonus" class="visible-md-block visible-lg-block">Получить бонус</button>
+        </div>
+    </div>
+</div>
 
-<div class="container-fluid for-accountants">
+
+<div class="container-fluid for-accountants visible-xs-block visible-sm-block">
     <div class="row">
         <div class="col-md-12" id="for-accountants-link">
             <h2 class="text-center">Для бухгалтеров</h2>         
@@ -251,15 +269,14 @@
             <p>Переложите часть работы на нас и получите бонус 10%!</p>
             <p>Передавая нам в работу 2 и более компании, вы получите вознаграждение в размере 10% за второй и каждый последующий заказы.</p>
             <p>Минимальная сумма одного заказа, по которому выплачивается вознаграждение – 2 999 рублей.</p>
-            <div class="btn-wrapper visible-md-block visible-lg-block">
-                <button id="btn-get-bonus" class="visible-md-block visible-lg-block">Получить бонус</button>
-            </div>
             <div class="btn-wrapper-mob">
                 <button id="btn-get-bonus-mob" class="visible-xs-block visible-sm-block">Получить бонус</button>
             </div>
         </div>
     </div>
 </div>
+
+
 
 
 <?php require_once 'footer.php'; ?>

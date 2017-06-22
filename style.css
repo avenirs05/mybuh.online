@@ -141,7 +141,6 @@ a {
 }
 
 .main-screen {
-	/*background-color: #F5F5F5;*/
 	height: 100vh;
 }
 
@@ -224,8 +223,6 @@ a {
 	margin-top: 0px;
 	list-style-type: none;
 	display: inline-block;
-
-	/*padding-left: 65px;*/
 }
 
 .main-screen ul span {
@@ -410,7 +407,6 @@ a {
 .compare-wrapper table {
 	font-family: Open Sans;
 	font-size: 18px;
-
 }
 
 .price-wrapper-mob table {
@@ -654,11 +650,26 @@ input[type="checkbox"] {
     margin-top: 15px;
 }
 
-/*.for-accountants {
-	background-image: url("imgs/red-white-people.jpg");
+.calc-and-text-wrapper {
+	display: flex;
+	margin-bottom: 30px;
+	min-height: 230px;
+	font-size: 20px;
+}
+
+.calc-wrapper {
+	background-image: url("imgs/man-with-calc.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
-}*/
+	width: 30%;
+	position: top;
+	margin-right: auto;
+}
+
+.for-accs-text-wrapper {
+	width: 69%;
+	margin-left: auto;
+}
 
 .where-are-you {
 	background-image: url("imgs/red-white-people.jpg");
@@ -678,6 +689,11 @@ input[type="checkbox"] {
 	background-color: #333333;
 	color: #ffffff;
 }
+
+.for-accountants {
+	padding-bottom: 30px;	
+}
+
 
 .for-accountants h2 {
 	font-size: 36px;
@@ -699,10 +715,10 @@ input[type="checkbox"] {
 	margin-top: 25px;
 }
 
-.for-accountants p {
+/*.for-accountants p {
 	font-size: 22px;
 	font-family: Open Sans;	
-}
+}*/
 
 .where-are-you p {
 	font-size: 20px;
@@ -1174,6 +1190,7 @@ input[type="checkbox"] {
 		margin-right: 10px;
 	}
 
+
 }
 
 
@@ -1210,6 +1227,14 @@ input[type="checkbox"] {
 		width: 380px;
 		font-size: 22px;
 	}
+	.calc-wrapper {
+		width: 20%;
+	}
+
+	.for-accs-text-wrapper {
+		width: 79%;
+	}
+
 }
 
 @media screen and (min-device-width: 1920px) {
@@ -1252,6 +1277,13 @@ input[type="checkbox"] {
 		width: 380px;
 		font-size: 26px;
 	}
+	.calc-wrapper {
+		width: 15%;
+	}
+
+	.for-accs-text-wrapper {
+		width: 84%;
+	}
 }
 
 
@@ -1282,7 +1314,7 @@ input[type="checkbox"] {
 	.for-accountants p {
 		padding-left: 0px;
 		padding-right: 0px;
-		font-size: 18px;
+		font-size: 20px;
 	}
 	.where-are-you p {
 		padding-left: 0px;
@@ -1388,6 +1420,9 @@ input[type="checkbox"] {
 	.what-can-order ul {
 		margin-left: 15px;
 	}
+	.for-accountants {
+		padding-bottom: 0px;	
+	}
 }
 
 @media screen and (max-device-width: 767px) {
@@ -1430,11 +1465,20 @@ input[type="checkbox"] {
 	.what-can-order ul {
 		margin-left: 10px;
 	}
+	.for-accountants {
+		padding-bottom: 0px;	
+	}
 }
 
 @media screen and (max-device-width: 379px) {
 	.compare-wrapper-mob table {
 	    font-size: 15px;
+}
+
+@media screen and (max-device-height: 480px) {
+	.btn-connect-wrapper {
+	    margin-top: 80px;
+	}
 }
 
 
