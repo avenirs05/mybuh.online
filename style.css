@@ -498,6 +498,10 @@ input[type="checkbox"] {
 	padding-bottom: 10px;
 }
 
+.what-can-order li {
+	margin-bottom: 20px;
+}
+
 .our-experience {
 	background-color: #333333;
 	color: #ffffff;
