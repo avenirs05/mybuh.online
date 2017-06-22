@@ -260,7 +260,6 @@
     </div>
 </div>
 
-
 <div class="container-fluid for-accountants visible-xs-block visible-sm-block">
     <div class="row">
         <div class="col-md-12" id="for-accountants-link">
@@ -275,8 +274,5 @@
         </div>
     </div>
 </div>
-
-
-
 
 <?php require_once 'footer.php'; ?>

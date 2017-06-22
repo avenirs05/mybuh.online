@@ -21,17 +21,6 @@ a {
 	padding-left: 70px;
 }
 
-/*.colors {
-	синий: #028090;
-	красный: #E7382B;
-	фон главной: #F1F1F1;
-
-	/*font-family: 'Open Sans Condensed', sans-serif;*/
-	/*font-family: 'Open Sans:700', sans-serif;
-
-}*/
-
-
 .border {
 	border: 1px solid black;
 }
@@ -197,14 +186,6 @@ a {
 	letter-spacing: 2px;
 }
 
-.main-screen .ipad {
-	background-image: url("imgs/tablet.png");
-	background-repeat: no-repeat;
-	height: 80vh;
-	background-size: cover;
-	margin-top: 20px;
-}
-
 .main-screen ul {
 	font-size: 28px;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -279,51 +260,6 @@ a {
 .main-screen li {
 	margin-top: 30px;
 	clear: both;
-}
-
-.main-screen .col-md-7 .ipad {
-	position: relative;
-}
-
-.main-screen .btn-inside-ipad-1 {
-	position: absolute;
-	left: 24%;
-	top: 14.5%;
-	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	border-radius: 5px;
-	background-color: #E7382B;
-	color: #ffffff;
-	border: none;
-	width: 252px;
-}
-
-.main-screen .btn-inside-ipad-1:hover {
-	background-color: #028090;
-}
-
-.main-screen .btn-inside-ipad-2 {
-	top: 32.5%;
-}
-
-.main-screen .btn-inside-ipad-2:hover {
-	background-color: #028090;
-}
-
-.main-screen .btn-inside-ipad-3 {
-	top: 50.5%;
-	border: 1px solid #000000;
-	color: #000000;
-	background-color: #ffffff;
-}
-
-.main-screen .btn-inside-ipad-3:hover {
-	background-color: #028090;
-	color: #ffffff;
 }
 
 .how-much h2 {
@@ -473,11 +409,6 @@ a {
 	font-size: 18px;
 }
 
-/*Страницы Company и Person*/
-#label-choice-tax-system {
-	margin-top: 15px;
-}
-
 .questions-wrapper {
 	padding-left: 70px;
 	padding-right: 70px;
@@ -511,38 +442,6 @@ input[type="checkbox"] {
 	margin-right: 7px;
 }
 
-#another-periods, #years-simple {
-	text-decoration: none;
-	border-bottom: 1px #028090 dashed;
-}
-
-#first-another-period {
-	margin-top: 10px;
-}
-
-.question {
-	font-family: Open Sans;
-	font-size: 22px;
-}
-
-.tax-system-answer {
-	color: #23527C;
-	font-size: 18px;
-}
-
-#form-tax-system button {
-	background-color: #028090;
-	color: #ffffff;
-	width: 120px;
-	height: 40px;
-	border: medium none;
-	border-radius: 2px;
-	font-size: 18px;
-	margin-right: 10px;
-	margin-bottom: 30px;
-	margin-top: 15px;
-}
-
 #btn-free-consult-mob {
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -562,92 +461,6 @@ input[type="checkbox"] {
 
 #btn-free-consult-mob:active {
 	background-color: #E7382B;
-}
-
-#form-tax-system button:hover {
-	background-color: #E7382B;
-}
-
-#label-tranz-yes, #label-one-face-yes, 
-#label-base-inc, #label-szv-quest-yes  {
-	font-size: 18px;
-	margin-top: 15px;
-	color: #028090;
-}
-
-#label-tranz-no, #label-one-face-no,
-#label-base-inc-spent, #label-szv-quest-no {
-	font-size: 18px;
-	color: #028090;
-}
-
-.month {
-	margin-bottom: 5px;
-}
-
-#span-we-will-send {
-	display: block;
-	margin-bottom: 15px;
-	font-family: Open Sans;
-	font-size: 22px;
-	color: #028090;
-}
-
-#decl-usn-4-2016::parent {
-	font-weight: bold;
-}
-
-.nalog-decl label,
-#label-decl-usn-4-2016, 
-#label-decl-usn-4-2015,
-#label-decl-usn-4-2014,
-#label-buh-rep-ifns-4-2016,
-#label-buh-rep-ifns-4-2015,
-#label-buh-rep-ifns-4-2014,
-#label-workers-cnt-4-2016,
-#label-workers-cnt-4-2015,
-#label-workers-cnt-4-2014,
-#label-buh-rep-stat-4-2016,
-#label-buh-rep-stat-4-2015,
-#label-buh-rep-stat-4-2014,
-#label-decl-ndfl-ip-4-2016,
-#label-decl-ndfl-ip-4-2015,
-#label-decl-ndfl-ip-4-2014,
-#label-year-2016-ip-simple,
-#label-year-2015-ip-simple,
-#label-year-2014-ip-simple {
-	font-weight: bold;
-}
-
-
-#choice-quarters > i > span,
-#another-periods,
-.div-quarters,
-.periods-will-send,
-.month > span,
-.month div label,
-#years-simple,
-#div-years {
-	margin-left: 40px;
-}
-
-#uk-question-0,
-#uk-question-1,
-#uk-question-2 {
-	margin-left: 80px;
-}
-
-#div-final-sum {
-    background-color: rgb(51, 153, 51);
-    width: 410px;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    padding: 10px 15px;
-    text-align: center;
-    height: 50px;
-    display: table-cell;
-    padding: 10px;
-    margin-top: 15px;
 }
 
 .calc-and-text-wrapper {
@@ -694,7 +507,6 @@ input[type="checkbox"] {
 	padding-bottom: 30px;	
 }
 
-
 .for-accountants h2 {
 	font-size: 36px;
 	font-weight: 700;
@@ -715,11 +527,6 @@ input[type="checkbox"] {
 	margin-top: 25px;
 }
 
-/*.for-accountants p {
-	font-size: 22px;
-	font-family: Open Sans;	
-}*/
-
 .where-are-you p {
 	font-size: 20px;
 	font-family: Open Sans;	
@@ -734,15 +541,20 @@ input[type="checkbox"] {
 	margin-left: 20px;
 }
 
-
 .our-experience li {
 	font-size: 20px;
 	font-family: Open Sans;	
+	margin-bottom: 10px;
 }
 
 .our-experience ul {
 	margin-left: 20px;
 }
+
+.our-experience .col-md-12 {
+	margin-bottom: 20px;
+}
+
 .for-accountants button {	
 	font-size: 22px;
 	font-family: 'Open Sans', sans-serif;
@@ -796,8 +608,6 @@ input[type="checkbox"] {
 	font-size: 22px;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #E7382B;
-/*	border: 2px solid #ffffff;*/
-/*	border-radius: 3px;*/
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 30px;
@@ -855,238 +665,58 @@ input[type="checkbox"] {
 	margin-top: 15px;
 }
 
-.order-wrapper {
-	margin-top: 20px;
-	text-align: right;
-}
-
-.public-offer {
-	padding-left: 70px;
-	padding-right: 70px;
-}
-
-.what-when-send {
-	padding-left: 50px;
-	padding-right: 50px;
-}
-
-.what-when-send p {
-	padding-left: 20px;
-	font-size: 18px;
-}
-
-.what-when-send h3 {
-	margin-top: 40px;
-	font-size: 24px;
-	font-weight: bold;
-}
-
-.what-when-send h2 {
-	margin-top: 40px;
-}
-
-.what-when-send ol {
-	font-size: 18px;
-}
-
-.what-when-send ul, li, span {
-	margin-bottom: 20px;
-}
-/*Форма От Клиента Если Общая или Упрощ. - ООО */
-
-#div-from-customer {
-	margin-top: 12px;
-	width: 410px;
-	background-color: #F1F1F1;
-	padding-top: 10px;
-	padding-left: 30px;
-	border-radius: 2px;
-}
-
-#div-from-customer input[type="text"] {
-	width: 350px;
-	height: 35px;
-}
-
-#div-from-customer > div {
-	margin-top: 20px;
-}
-
-#div-from-customer > div > div {
-	color: #028090;
-	font-weight: bold;
-}
-
-#div-from-customer input[type="submit"] {
-	background-color: #E7382B;
-	color: #ffffff;
-	width: 216px;
-	height: 40px;
-	border: medium none;
-	border-radius: 2px;
-	font-size: 18px;
-	margin-right: 10px;
-	margin-bottom: 25px;
-	margin-top: 25px;
-}
-
-#div-from-customer input[type="submit"]:hover {
-	background-color: #339933;
-}
-
-#div-from-customer button {
-	margin-top: 25px;
-}
-
-#div-from-customer button:hover {
-	background-color: #B03A32;
-}
-
-/*Конец. Форма От Клиента Если Общая или Упрощ. - ООО */
-
-
-/*Форма ИП - От Клиента Если Общая или Упрощ. - ИП */
-
-#div-from-customer-ip {
-	margin-top: 12px;
-	width: 410px;
-	background-color: #F1F1F1;
-	padding-top: 10px;
-	padding-left: 30px;
-	border-radius: 2px;
-}
-
-#div-from-customer-ip input[type="text"] {
-	width: 350px;
-	height: 35px;
-}
-
-#div-from-customer-ip > div {
-	margin-top: 20px;
-}
-
-#div-from-customer-ip > div > div {
-	color: #028090;
-	font-weight: bold;
-}
-
-#div-from-customer-ip input[type="submit"] {
-	background-color: #E7382B;
-	color: #ffffff;
-	width: 216px;
-	height: 40px;
-	border: medium none;
-	border-radius: 2px;
-	font-size: 18px;
-	margin-right: 10px;
-	margin-bottom: 25px;
-	margin-top: 25px;
-}
-
-#div-from-customer-ip input[type="submit"]:hover {
-	background-color: #339933;
-}
-
-#div-from-customer-ip button {
-	margin-top: 25px;
-}
-
-#div-from-customer-ip button:hover {
-	background-color: #B03A32;
-}
-
-/*Конец. ИП - Форма От Клиента Если Общая или Упрощ. - ИП */
-
-#div-years {
-	margin-top: 5px;
-}
-
-#will-prepare-email {
-	margin-bottom: 15px;
-	font-family: Open Sans;
-	font-size: 22px;
-	color: #028090;
-}
-
-/*Конец. Страницы Company и Person*/
-
-
 /*Начало. Переопределенные стили Bootstrap.*/
-
 .modal-title {
 	color: #000000;
 }
-
 .modal-backdrop.in {
 	opacity: .8;
 }
-
 .modal-dialog {
 	width: 320px;
 }
-
 .modal-content {
 	background-color: #F1F1F1;
 }
-
 .modal-body input[type="text"] {
 	width: 287px;
 	height: 35px;
 	font-size: 18px;
 }
-
 #modal-free-consult-mob .modal-body input[type="text"] {
 	width: 100%;
 	height: 35px;
 }
-
 #modal-free-consult-mob .modal-body input[type="submit"] {
 	width: 100%;
 }
-
 #modal-free-consult-mob .modal-content {
 	width: 100%;
-/*	margin-left: auto;
-	margin-right: auto;*/
 }
-
 #modal-free-consult-mob .modal-dialog {
 	width: 300px;
-/*	margin-left: auto;
-	margin-right: auto;*/
 }
-
 #modal-for-accountants-mob .modal-body input[type="text"] {
 	width: 100%;
 	height: 35px;
 }
-
 #modal-for-accountants-mob .modal-body input[type="submit"] {
 	width: 100%;
 }
-
 #modal-for-accountants-mob .modal-content {
 	width: 100%;
-/*	margin-left: auto;
-	margin-right: auto;*/
 }
-
 #modal-for-accountants-mob .modal-dialog {
 	width: 300px;
-/*	margin-left: auto;
-	margin-right: auto;*/
 }
-
 .modal-body form > div {
 	margin-top: 20px;
 }
-
 .modal-body > form > div > div {
 	color: #028090;
 	font-weight: bold;
 	font-size: 18px;
 }
-
 .modal-body input[type="submit"] {
 	background-color: #E7382B;
 	color: #ffffff;
@@ -1099,63 +729,16 @@ input[type="checkbox"] {
 	margin-top: 20px;
 	letter-spacing: 1px;
 }
-
 .modal-body input[type="submit"]:hover {
 	background-color: #339933;
 }
-
 .modal-body button:hover {
 	background-color: #B03A32;
 }
-
 .modal-body > form div:first-child {
 	margin-top: 5px;
 }
-
-
-
 /*Конец. Переопределенные стили Bootstrap.*/
-
-/*Форма оплаты от Яндекса*/
-
-#form-yandex {
-	width: 390px;
-	border: 1px solid #E5E5E5;
-	padding: 20px;
-	font-size: 18px;
-}
-
-#form-yandex input[name="sum"] {
-	width: 70px;
-	text-align: center;
-}
-
-.way-of-payment {
-	margin-top: 20px;
-	font-size: 18px;
-}
-
-#span-text-sum {
-	margin-right: 5px;
-} 
-
-#span-text-rub {
-	margin-left: 5px;
-}
-
-#form-yandex input[type="submit"] {
-	margin-top: 20px;
-	background-color: #FFDB4D;
-	border: medium none;
-	border-radius: 2px;
-	padding: 5px 15px;
-}
-
-#form-yandex input[type="submit"]:hover {
-	background-color: #FCD600;
-}
-
-/*Конец. Форма оплаты от Яндекса*/
 
 @media screen and (max-device-width: 1365px) {
 	.container, 
@@ -1167,7 +750,6 @@ input[type="checkbox"] {
 		font-size: 24px;
 		letter-spacing: 1px;
 	}
-
 	.main-screen ul {
 		font-size: 22px;
 	}
@@ -1189,10 +771,7 @@ input[type="checkbox"] {
 		margin-left: 10px;
 		margin-right: 10px;
 	}
-
-
 }
-
 
 @media screen and (min-device-width: 1600px) {
 	.container, 
@@ -1230,11 +809,9 @@ input[type="checkbox"] {
 	.calc-wrapper {
 		width: 20%;
 	}
-
 	.for-accs-text-wrapper {
 		width: 79%;
 	}
-
 }
 
 @media screen and (min-device-width: 1920px) {
@@ -1273,19 +850,13 @@ input[type="checkbox"] {
 	.main-screen li {
 		margin-top: 60px;
 	}
-	.main-screen .btn-inside-ipad-1 {
-		width: 380px;
-		font-size: 26px;
-	}
 	.calc-wrapper {
 		width: 15%;
 	}
-
 	.for-accs-text-wrapper {
 		width: 84%;
 	}
 }
-
 
 @media screen and (max-device-width: 991px) {
 	.container, 
@@ -1339,42 +910,6 @@ input[type="checkbox"] {
 		padding-left: 0px;
 		padding-right: 0px;
 	}
-	.questions-wrapper {
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	#div-from-customer {
-		width: 290px;
-		padding-left: 10px;
-		padding-right: 10px;
-		padding-top: 1px;
-	}
-	#div-from-customer-ip {
-		width: 290px;
-		padding-left: 10px;
-		padding-right: 10px;
-		padding-top: 1px;
-	}
-	#div-from-customer input[type="text"] {
-		width: 270px;
-	}
-	#div-from-customer input[type="submit"] {
-		width: 165px;
-		margin-right: 0;
-	}
-	#div-from-customer-ip input[type="text"] {
-		width: 270px;
-	}
-	#div-from-customer-ip input[type="submit"] {
-		width: 165px;
-		margin-right: 0;
-	}
-	#form-tax-system button {
-		width: 90px;
-	}
-	#form-yandex {
-		width: 290px;
-	}
 	.price-page {
 		padding-left: 10px;
 		padding-right: 10px;
@@ -1386,33 +921,6 @@ input[type="checkbox"] {
 	.public-offer {
 		padding-left: 10px;
 		padding-right: 10px;
-	}
-	.what-when-send {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	.what-when-send p {
-		padding-left: 0px;
-		font-size: 18px;
-	}
-
-	.what-when-send h3 {
-		margin-top: 40px;
-		font-size: 20px;
-		font-weight: bold;
-	}
-
-	.what-when-send h2 {
-		margin-top: 28px;
-	}
-
-	.what-when-send ol {
-		font-size: 18px;
-		margin-left: -20px;
-	}
-
-	.what-when-send ul, li, span {
-		margin-bottom: 10px;
 	}
 	.btn-connect-wrapper {
 	    margin-left: 15px;
