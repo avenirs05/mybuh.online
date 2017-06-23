@@ -932,9 +932,9 @@ input[type="checkbox"] {
 	.what-can-order ul {
 		margin-left: 15px;
 	}
-	.for-accountants {
+/*	.for-accountants {
 		padding-bottom: 0px;	
-	}
+	}*/
 }
 
 @media screen and (max-device-width: 767px) {
