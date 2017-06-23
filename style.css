@@ -507,9 +507,9 @@ input[type="checkbox"] {
 	color: #ffffff;
 }
 
-.for-accountants {
+/*.for-accountants {
 	padding-bottom: 30px;	
-}
+}*/
 
 .for-accountants h2 {
 	font-size: 36px;
@@ -640,6 +640,15 @@ input[type="checkbox"] {
 	color: rgb(122, 122, 122);
 	opacity: .95;
 	background-color: #000000;
+}
+
+.emphasis {
+	font-size: 21px;
+}
+
+.div-not-visible {
+	height: 30px;
+	background-color: #fff;
 }
 
 .footer a {
@@ -932,8 +941,8 @@ input[type="checkbox"] {
 	.what-can-order ul {
 		margin-left: 15px;
 	}
-/*	.for-accountants {
-		padding-bottom: 0px;	
+/*	.footer {
+		margin-top: 1px;
 	}*/
 }
 
@@ -960,7 +969,7 @@ input[type="checkbox"] {
 		font-size: 17px;
 	}
 	.first-man-wrapper {
-		margin-top: 80px;
+		margin-top: 50px;
 		margin-left: 15px;
 		font-size: 20px;
 	}
@@ -972,14 +981,14 @@ input[type="checkbox"] {
 	}
 	.btn-connect-wrapper {
 	    margin-left: 15px;
-	    margin-top: 150px;
+	    margin-top: 50px;
 	}	
 	.what-can-order ul {
 		margin-left: 10px;
 	}
-	.for-accountants {
+/*	.for-accountants {
 		padding-bottom: 0px;	
-	}
+	}*/
 }
 
 @media screen and (max-device-width: 379px) {

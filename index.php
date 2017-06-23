@@ -7,9 +7,9 @@
     <meta name="format-detection" content="telephone=no" />
 	
     <title>Бухгалтерская компания</title>
-    <style>
+<!--     <style>
         html {  overflow-x: hidden; }
-    </style>
+    </style> -->
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
@@ -106,7 +106,7 @@
                     <td class="text-center">У нас нет отпусков и больничных. Мы не отпрашиваемся пораньше, чтобы успеть на день рождения к свекрови, и не ездим на дачу по пятницам. </td>
                 </tr>
                 <tr>
-                    <td class="text-center">Любит поболтать в свободное от работы время. Зачастую о том, о чем болтать не сто́ит.</td>
+                    <td class="text-center">Любит поболтать в свободное от работы время. Зачастую о том, о чем болтать не ст<span class="emphasis">о&#769;</span>ит.</td>
                     <td class="text-center">Не задаем лишних вопросов. Не выдаем секретов, даже если нас сильно просят. Никому.</td>
                 </tr>
                 <tr class="success">
@@ -262,6 +262,7 @@
         <div>
             <button id="btn-get-bonus" class="visible-md-block visible-lg-block">Получить бонус</button>
         </div>
+        <div class="div-not-visible"></div>
     </div>
 </div>
 
