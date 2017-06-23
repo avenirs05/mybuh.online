@@ -7,6 +7,9 @@
     <meta name="format-detection" content="telephone=no" />
 	
     <title>Бухгалтерская компания</title>
+    <style>
+        html {  overflow-x: hidden; }
+    </style>
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
@@ -20,6 +23,11 @@
     <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter45078772 = new Ya.Metrika({ id:45078772, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/45078772" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 </head>
 <body>
+
+<?php 
+    $path = "clickfrogru_tcp.php";
+    include_once($path);
+?>
 
 <div class="main-screen">
     <?php require_once 'header.php'; ?>
@@ -39,7 +47,8 @@
     <div class="row">
         <div class="col-md-12">
             <h2 class="text-center">Куда вы попали?</h2>
-            <p>Вы находитесь на сайте первой в России бухгалтерской компании, состоящей только из мужчин.</p> <p>Почему так?</p> 
+            <p>Вы находитесь на сайте первой в России бухгалтерской компании, состоящей только из мужчин.</p> 
+            <p>Почему так?</p> 
             <p>Мы искренне считаем, что профессия бухгалтера не для женщин: в ней нет ничего творческого и слишком велика цена ошибки.</p>
             <p>Поэтому мы решили объединиться, чтобы создать компанию, предлагающую качественно новый уровень бухгалтерского сервиса.</p>
             <p>Для нас слово важнее бумаги. Мы не станем прикрываться пунктами в договорах: если мы совершаем ошибку, мы за нее отвечаем. Это принципиальная позиция.</p>
