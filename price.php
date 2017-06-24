@@ -43,7 +43,7 @@
                 </tr>
                 <tr>
                     <td class="text-center">до 30</td>
-                    <td class="text-center">4 500</td>
+                    <td class="text-center">4 499</td>
                     <td class="text-center">6 000</td>
                     <td class="text-center">7 500</td>
                 </tr>
@@ -55,7 +55,7 @@
                 </tr>
                 <tr>
                     <td class="text-center">до 100</td>
-                    <td class="text-center">7 000</td>
+                    <td class="text-center">6 999</td>
                     <td class="text-center">8 500</td>
                     <td class="text-center">10 000</td>
                 </tr>
@@ -104,7 +104,7 @@
                 </tr>
                 <tr>
                     <td class="text-center">до 30</td>
-                    <td class="text-center">3 000</td>
+                    <td class="text-center">2 999</td>
                     <td class="text-center">3 000</td>
                     <td class="text-center">4 000</td>
                     <td class="text-center">5 500</td>

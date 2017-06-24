@@ -3,7 +3,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Заполните данные ниже и мы вас проконсультируем по этому вопросу.</h4>
+                <h4 class="modal-title" id="myModalLabel">Заполните данные ниже и мы Вас бесплатно проконсультируем</h4>
             </div>
             <div class="modal-body">
                 <form action="handler-free.php" method="get">
@@ -22,7 +22,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Заполните данные ниже и мы вас проконсультируем по этому вопросу.</h4>
+                <h4 class="modal-title" id="myModalLabel">Заполните данные ниже и мы Вас бесплатно проконсультируем</h4>
             </div>
             <div class="modal-body">
                 <form action="handler-free.php" method="get">
@@ -41,7 +41,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Заполните данные ниже и мы вас проконсультируем по этому вопросу.</h4>
+                <h4 class="modal-title" id="myModalLabel">Заполните данные ниже и мы Вас бесплатно проконсультируем</h4>
             </div>
             <div class="modal-body">
                 <form action="handler-free.php" method="get">
@@ -54,6 +54,65 @@
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="modal-connect-us" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Заполните данные ниже и мы свяжемся с Вами в течение 1 часа</h4>
+            </div>
+            <div class="modal-body">
+                <form action="handler-free.php" method="get">
+                    <div><div>Имя</div><input id="name-envd" type="text" name="name-free-consult"></div>
+                    <div><div>Телефон</div><input id="phone-envd" type="text" name="phone-free-consult"></div>
+                    <div><div>Email</div><input id="email-envd" type="text" name="email-free-consult"></div>
+                    <input type="submit" value="Отправить" name="submit-free-consult">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal-check-us" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Мы с Вами свяжемся и подробно расскажем о своих возможностях</h4>
+            </div>
+            <div class="modal-body">
+                <form action="handler-free.php" method="get">
+                    <div><div>Имя</div><input id="name-envd" type="text" name="name-free-consult"></div>
+                    <div><div>Телефон</div><input id="phone-envd" type="text" name="phone-free-consult"></div>
+                    <div><div>Email</div><input id="email-envd" type="text" name="email-free-consult"></div>
+                    <input type="submit" value="Отправить" name="submit-free-consult">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal-our-experience" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Для начала сотрудничества заполните данные ниже</h4>
+            </div>
+            <div class="modal-body">
+                <form action="handler-free.php" method="get">
+                    <div><div>Имя</div><input id="name-envd" type="text" name="name-free-consult"></div>
+                    <div><div>Телефон</div><input id="phone-envd" type="text" name="phone-free-consult"></div>
+                    <div><div>Email</div><input id="email-envd" type="text" name="email-free-consult"></div>
+                    <input type="submit" value="Отправить" name="submit-free-consult">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 <div class="modal fade" id="modal-for-accountants" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">

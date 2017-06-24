@@ -7,9 +7,6 @@
     <meta name="format-detection" content="telephone=no" />
 	
     <title>Бухгалтерская компания</title>
-<!--     <style>
-        html {  overflow-x: hidden; }
-    </style> -->
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
@@ -23,11 +20,6 @@
     <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter45078772 = new Ya.Metrika({ id:45078772, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/45078772" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 </head>
 <body>
-
-<?php 
-    $path = "clickfrogru_tcp.php";
-    include_once($path);
-?>
 
 <div class="main-screen">
     <?php require_once 'header.php'; ?>
@@ -56,10 +48,10 @@
             <p>Наши клиенты уверены в нас так же, как в себе.</p>
             <p>Хотите проверить?</p>
             <div class="btn-wrapper visible-md-block visible-lg-block">
-                <button class="btn-check-us visible-md-block visible-lg-block">Проверить нас</button>
+                <button id="btn-check-us" class="visible-md-block visible-lg-block">Проверить нас</button>
             </div>
             <div class="btn-wrapper-mob">
-                <button class="btn-check-us visible-xs-block visible-sm-block">Проверить нас</button>
+                <button id="btn-check-us-mob" class="visible-xs-block visible-sm-block">Проверить нас</button>
             </div>
         </div>
     </div>
@@ -189,7 +181,7 @@
                     <th class="text-center">«ЭКОНОМ»</th>
                 </tr>
                 <tr>
-                    <td class="text-center">Для компаний и предпринимателей, которые имеют небольшой документооборот, совершают не более 30 хозяйственных операций в месяц и применяют специальные режимы налогообложения(«упрощенка», «вмененка», «патент»)</td>
+                    <td class="text-center">Для компаний и предпринимателей, которые имеют небольшой документооборот, совершают не более 30 хозяйственных операций в месяц и применяют специальные режимы налогообложения («упрощенка», «вмененка», «патент»)</td>
                 </tr>
                 <tr>
                     <td class="text-center cell-price">499 руб.</td>
@@ -239,10 +231,10 @@
         </div>
         <div id="are-you-ready" class="text-center">Решились на сотрудничество?</div>
         <div class="btn-wrapper visible-md-block visible-lg-block">
-            <button class="btn-check-us visible-md-block visible-lg-block">Начать работу</button>
+            <button id="btn-our-experience" class="visible-md-block visible-lg-block">Начать работу</button>
         </div>
         <div class="btn-wrapper-mob">
-            <button class="btn-check-us visible-xs-block visible-sm-block">Начать работу</button>
+            <button id="btn-our-experience-mob" class="visible-xs-block visible-sm-block">Начать работу</button>
         </div>
     </div>
 </div>

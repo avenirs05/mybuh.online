@@ -356,8 +356,8 @@ a {
 	font-size: 18px;
 }
 
-.price-wrapper table td {
-	width: 25%;
+.price-wrapper table td, th {
+	width: 33%;
 }
 
 .compare-wrapper table td {
@@ -606,7 +606,10 @@ input[type="checkbox"] {
 	margin-right: auto;
 }
 
-.btn-check-us {
+#btn-check-us, 
+#btn-check-us-mob,
+#btn-our-experience,
+#btn-our-experience-mob {
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 22px;
@@ -621,7 +624,10 @@ input[type="checkbox"] {
 	border: none;
 }
 
-.btn-check-us:hover {
+#btn-check-us:hover,
+#btn-check-us-mob:hover,
+#btn-our-experience:hover,
+#btn-our-experience-mob:hover {
 	background-color: #339933;
 }
 
