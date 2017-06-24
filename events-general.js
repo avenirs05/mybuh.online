@@ -13,7 +13,7 @@ $(function () {
 	});
 
 	$('#a-free-consult-footer').click(function() {
-		$('#modal-free-consult').modal('show');
+		$('#modal-free-consult-footer').modal('show');
 	});
 
 	$('#btn-get-bonus').click(function() {

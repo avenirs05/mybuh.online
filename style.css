@@ -687,6 +687,7 @@ input[type="checkbox"] {
 /*Начало. Переопределенные стили Bootstrap.*/
 .modal-title {
 	color: #000000;
+	padding-right: 15px;
 }
 .modal-backdrop.in {
 	opacity: .8;
@@ -715,6 +716,7 @@ input[type="checkbox"] {
 #modal-free-consult-mob .modal-dialog {
 	width: 300px;
 }
+
 #modal-for-accountants-mob .modal-body input[type="text"] {
 	width: 100%;
 	height: 35px;
@@ -728,6 +730,7 @@ input[type="checkbox"] {
 #modal-for-accountants-mob .modal-dialog {
 	width: 300px;
 }
+
 .modal-body form > div {
 	margin-top: 20px;
 }
@@ -947,12 +950,43 @@ input[type="checkbox"] {
 	.what-can-order ul {
 		margin-left: 15px;
 	}
-/*	.footer {
-		margin-top: 1px;
-	}*/
 }
 
 @media screen and (max-device-width: 767px) {
+	#modal-connect-us .modal-body input[type="text"],
+	#modal-free-consult-footer .modal-body input[type="text"], 
+	#modal-check-us .modal-body input[type="text"],
+	#modal-our-experience .modal-body input[type="text"] {
+		width: 100%;
+		height: 35px;
+	}
+	#modal-connect-us .modal-body input[type="submit"],
+	#modal-free-consult-footer .modal-body input[type="submit"],
+	#modal-check-us .modal-body input[type="submit"],
+	#modal-our-experience .modal-body input[type="submit"] {
+		width: 100%;
+	}
+	#modal-connect-us .modal-content,
+	#modal-free-consult-footer .modal-content,
+	#modal-check-us .modal-content,
+	#modal-our-experience .modal-content {
+		width: 100%;
+	}
+	#modal-connect-us .modal-dialog,
+	#modal-free-consult-footer .modal-dialog,
+	#modal-check-us .modal-dialog,
+	#modal-our-experience .modal-dialog {
+		width: 310px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+/*	#modal-free-consult-footer .modal-dialog {
+		width: 310px;
+		margin-left: auto;
+		margin-right: auto;
+	}*/
 	#btn-free-consult-mob {
 		font-size: 11px;
 	}
