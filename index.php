@@ -60,7 +60,7 @@
 
 <div class="container-fluid what-can-order">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12" id="what-can-order-link">
             <h2 class="text-center">Что можно у нас заказать?</h2>
             <ul>
                 <li>Ведение и восстановление бухгалтерского учета</li>
@@ -79,7 +79,7 @@
 
 <div class="container-fluid compare-with-buh visible-md-block visible-lg-block">
     <div class="row">
-        <div id="price-link" class="col-md-12 compare-wrapper">
+        <div class="col-md-12 compare-wrapper">
             <h2 class="text-center">Почему мы, а не бухгалтер в штате?</h2>
             <table class="table table-bordered">               
                 <tr>
@@ -113,7 +113,7 @@
 
 <div class="container-fluid compare-with-buh-mob visible-xs-block visible-sm-block">
     <div class="row">
-        <div id="price-link" class="col-md-12 compare-wrapper-mob">
+        <div class="col-md-12 compare-wrapper-mob">
             <h2 class="text-center">Почему мы, а не бухгалтер в штате?</h2>
             <table class="table table-bordered">               
                 <tr>
@@ -156,7 +156,7 @@
                     <th class="text-center">«БИЗНЕС+»</th>
                 </tr>
                 <tr>
-                    <td class="text-center">Для компаний и предпринимателей, которые имеют небольшой документооборот, совершают не более 30 хозяйственных операций в месяц и применяют специальные режимы налогообложения(«упрощенка», «вмененка», «патент»)</td>
+                    <td class="text-center">Для компаний и предпринимателей, которые имеют небольшой документооборот, совершают не более 30 хозяйственных операций в месяц и применяют специальные режимы налогообложения («упрощенка», «вмененка», «патент»)</td>
                     <td class="text-center">Для компаний и предпринимателей, которые имеют небольшой документооборот, совершают не более 50 хозяйственных операций в месяц и применяют различные режимы налогообложения</td>
                     <td class="text-center">Включает комплексное бухгалтерское сопровождение, пакет консультаций по правовым и налоговым вопросам</td>
                 </tr>
@@ -243,7 +243,7 @@
 <div class="container-fluid for-accountants visible-md-block visible-lg-block">
     <div class="row">
         <h2 class="text-center">Для бухгалтеров</h2>  
-        <div class="col-md-12 calc-and-text-wrapper">
+        <div id="for-accountants-link" class="col-md-12 calc-and-text-wrapper">
             <div class="calc-wrapper"></div>
             <div class="for-accs-text-wrapper">                       
                 <p>У вас много работы? Не успеваете в отчетный период?</p>
@@ -261,7 +261,7 @@
 
 <div class="container-fluid for-accountants visible-xs-block visible-sm-block">
     <div class="row">
-        <div class="col-md-12" id="for-accountants-link">
+        <div class="col-md-12" id="for-accountants-link-mob">
             <h2 class="text-center">Для бухгалтеров</h2>         
             <p>У вас много работы? Не успеваете в отчетный период?</p>
             <p>Переложите часть работы на нас и получите бонус 10%!</p>

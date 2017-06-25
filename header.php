@@ -6,7 +6,7 @@
                 <button id="btn-free-consult" class="hidden-xs hidden-sm">Бесплатная консультация</button>
                 <div class="cons-phone">
                     <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;
-                    <span class="phone-digits">8 800 350 84 70</span> 
+                    <span class="phone-digits">+7 499 685 12 89</span> 
                 </div>
             </div> 
         </div>
