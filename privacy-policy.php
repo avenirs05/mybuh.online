@@ -24,6 +24,7 @@
 </head>
 
 <body>
+<?php require_once 'modals.php'; ?>
 <?php require_once 'header.php'; ?> 
 
 <div class="container-fluid privacy-policy">
