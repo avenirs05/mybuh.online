@@ -15,7 +15,7 @@
                     </div>
                     <div class="col-md-3">
                         <div><span>info@mybuh.online</span></div> 
-                        <div><span>+7 499 685 12 89</span></div> 
+                        <div><span>8 800 22 22 943</span></div> 
                     </div>               
                     <div class="col-md-3">
                         <div><a href="#"></a></div>
