@@ -38,15 +38,13 @@
     </div>
 </div>
 
-
-
 <?php 
 require_once 'functions.php';
 // print_r($_POST);
 
 $headers = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-$to = 'domosed365365@gmail.com, fricadelka78@gmail.com, aceking2032@gmail.com, main@pretenzor.ru';
+$to = 'info@mybuh.online';
 $subject = "Mybuh.online";
 
 if (isset($_GET['submit-free-consult'])) {  
@@ -54,7 +52,9 @@ if (isset($_GET['submit-free-consult'])) {
                         <strong>Тема: бесплатная консультация</strong><br>' .
                         'Имя: ' . $_GET['name-free-consult'] . '<br>' .
                         'Телефон: ' . $_GET['phone-free-consult'] . '<br>' .
-                        'Email: ' . $_GET['email-free-consult'] . '<br></body></html>';  
+                        'Email: ' . $_GET['email-free-consult'] . '<br>' .
+                        'Ip-адрес: ' . $_SERVER['REMOTE_ADDR'] .
+                        '</body></html>';  
 
     mail($to, $subject, $message, $headers);
     exit();
@@ -65,7 +65,9 @@ if (isset($_GET['submit-get-bonus'])) {
                         <strong>Тема: бонус бухгалтеру</strong><br>' .
                         'Имя: ' . $_GET['name-of-buh'] . '<br>' .
                         'Телефон: ' . $_GET['phone-of-buh'] . '<br>' .
-                        'Названия фирм: ' . $_GET['names-of-companies'] . '<br></body></html>';  
+                        'Названия фирм: ' . $_GET['names-of-companies'] . '<br>' .
+                        'Ip-адрес: ' . $_SERVER['REMOTE_ADDR'] .
+                        '</body></html>';  
 
     mail($to, $subject, $message, $headers);
     exit();
@@ -76,7 +78,9 @@ if (isset($_GET['submit-envd-ooo'])) {
     <strong>Тема: ЕНВД - ООО</strong><br>' .
     'Имя: ' . $_GET['name-envd-ooo'] . '<br>' .
     'Телефон: ' . $_GET['phone-envd-ooo'] . '<br>' .
-    'Email: ' . $_GET['email-envd-ooo'] . '<br></body></html>';
+    'Email: ' . $_GET['email-envd-ooo'] . '<br>' .
+    'Ip-адрес: ' . $_SERVER['REMOTE_ADDR'] .
+    '</body></html>';
 
     mail($to, $subject, $message, $headers);
 }
@@ -86,7 +90,9 @@ if (isset($_GET['submit-not-know-ooo'])) {
     <strong>Тема: Не знаю - ООО</strong><br>' .
             'Имя: ' . $_GET['name-not-know-ooo'] . '<br>' .
             'Телефон: ' . $_GET['phone-not-know-ooo'] . '<br>' .
-            'Email: ' . $_GET['email-not-know-ooo'] . '<br></body></html>';
+            'Email: ' . $_GET['email-not-know-ooo'] . '<br>' .
+            'Ip-адрес: ' . $_SERVER['REMOTE_ADDR'] .
+            '</body></html>';
 
     mail($to, $subject, $message, $headers);
     }
@@ -96,7 +102,9 @@ if (isset($_GET['submit-envd-ip'])) {
     <strong>Тема: ЕНВД - ИП</strong><br>' .
     'Имя: ' . $_GET['name-envd-ip'] . '<br>' .
     'Телефон: ' . $_GET['phone-envd-ip'] . '<br>' .
-    'Email: ' . $_GET['email-envd-ip'] . '<br></body></html>';
+    'Email: ' . $_GET['email-envd-ip'] . '<br>' .
+    'Ip-адрес: ' . $_SERVER['REMOTE_ADDR'] .
+    '</body></html>';
 
     mail($to, $subject, $message, $headers);
 }
@@ -106,7 +114,9 @@ if (isset($_GET['submit-patent-ip'])) {
     <strong>Тема: Патент - ИП</strong><br>' .
     'Имя: ' . $_GET['name-patent-ip'] . '<br>' .
     'Телефон: ' . $_GET['phone-patent-ip'] . '<br>' .
-    'Email: ' . $_GET['email-patent-ip'] . '<br></body></html>';
+    'Email: ' . $_GET['email-patent-ip'] . '<br>' .
+    'Ip-адрес: ' . $_SERVER['REMOTE_ADDR'] .
+    '</body></html>';
 
     mail($to, $subject, $message, $headers);
 }
@@ -122,7 +132,9 @@ if (isset($_GET['submit-not-know-ip'])) {
     <strong>Тема: Не знаю - ИП</strong><br>' .
     'Имя: ' . $_GET['name-not-know-ip'] . '<br>' .
     'Телефон: ' . $_GET['phone-not-know-ip'] . '<br>' .
-    'Email: ' . $_GET['email-not-know-ip'] . '<br></body></html>';
+    'Email: ' . $_GET['email-not-know-ip'] . '<br>' .
+    'Ip-адрес: ' . $_SERVER['REMOTE_ADDR'] .
+    '</body></html>';
 
     mail($to, $subject, $message, $headers);
 }
@@ -155,7 +167,8 @@ if (isset($_POST['submit-go-to-pay-ooo'])) {
     willSendWorkersCnt() .
     willSendDeclUsn() . 
     showTotalAmount() .
-    '</body></html>';
+    'Ip-адрес: ' . $_SERVER['REMOTE_ADDR'] .
+    '</body></html>';    
     
     mail($to, $subject, $message, $headers);  
 }
@@ -180,6 +193,7 @@ if (isset($_POST['submit-go-to-pay-ip'])) {
     willSendDeclNdflIp() .
     willSendDeclYearIp () . 
     showTotalAmount() .
+    'Ip-адрес: ' . $_SERVER['REMOTE_ADDR'] .
     '</body></html>';
     
     mail($to, $subject, $message, $headers);  
