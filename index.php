@@ -21,6 +21,10 @@
 </head>
 <body>
 <?php require_once 'modals.php'; ?>
+<?php 
+    $path = "clickfrogru_tcp.php";
+    include_once($path);
+?>
 
 <div class="main-screen">
     <?php require_once 'header.php'; ?>

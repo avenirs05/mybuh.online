@@ -1,5 +1,5 @@
 body {
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 ul, li, span {
@@ -302,18 +302,18 @@ a {
 }
 
 .price-wrapper {
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;;
 	margin-bottom: 15px;	
 }
 
 .compare-with-buh {
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 15px;	
 	background-color: #F5F5F5;
 }
 
 .price-wrapper table {
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	background-color: #F5F5F5;
 }
@@ -340,18 +340,18 @@ a {
 
 
 .compare-wrapper table {
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 }
 
 .price-wrapper-mob table {
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	background-color: #F5F5F5;
 }
 
 .compare-wrapper-mob table {
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 }
 
@@ -385,7 +385,7 @@ a {
 }
 
 .how-much a {
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 }
 
@@ -398,13 +398,13 @@ a {
 	margin-top: 30px;
 	margin-bottom: 18px;
 	font-size: 18px;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #look-all-price-mob {
 	margin-top: 20px;
 	margin-bottom: 22px;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 }
 
@@ -532,12 +532,12 @@ input[type="checkbox"] {
 
 .where-are-you p {
 	font-size: 20px;
-	font-family: Open Sans;	
+	font-family: 'Open Sans', sans-serif;
 }
 
 .what-can-order li {
 	font-size: 20px;
-	font-family: Open Sans;	
+	font-family: 'Open Sans', sans-serif;	
 }
 
 .what-can-order ul {
@@ -546,7 +546,7 @@ input[type="checkbox"] {
 
 .our-experience li {
 	font-size: 20px;
-	font-family: Open Sans;	
+	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 10px;
 }
 
@@ -636,7 +636,7 @@ input[type="checkbox"] {
 }
 
 .thank-you {
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 24px;
 	margin-top: 100px;
 }
@@ -658,18 +658,18 @@ input[type="checkbox"] {
 
 .footer a {
 	color: rgb(122, 122, 122);
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .footer span {
 	color: rgb(122, 122, 122);
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .footer a:hover {
 	text-decoration: none;
 	color: #ffffff;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .footer-wrapper {
@@ -679,7 +679,7 @@ input[type="checkbox"] {
 
 .copyright {
 	font-size: 12px;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	margin-top: 15px;
 }
 
