@@ -675,6 +675,8 @@ input[type="checkbox"] {
 .footer-wrapper {
 	padding-top: 20px;
 	margin-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .copyright {
@@ -928,8 +930,8 @@ input[type="checkbox"] {
 		font-size: 28px;
 	}
 	.footer-wrapper {
-		padding-left: 0px;
-		padding-right: 0px;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 	.price-page {
 		padding-left: 10px;
