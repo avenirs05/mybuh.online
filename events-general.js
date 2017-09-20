@@ -8,6 +8,14 @@ $(function () {
 		$('#modal-connect-us').modal('show');
 	});
 
+	$('#btn-connect-taxi').click(function() {
+		$('#modal-connect-us').modal('show');
+	});
+
+	$('#btn-connect-taxi-mob').click(function() {
+		$('#modal-connect-us').modal('show');
+	});
+
 	$('#btn-free-consult-mob').click(function() {
 		$('#modal-free-consult-mob').modal('show');
 	});

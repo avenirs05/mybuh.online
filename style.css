@@ -39,7 +39,9 @@ a {
 	color: #ffffff;
 	padding-left: 70px;
 	padding-right: 70px;
-	opacity: 0.8;
+	opacity: 0.85;
+	/*margin-bottom: -1px;*/
+	
 }
 
 .main-screen {
@@ -59,6 +61,11 @@ a {
 	background-size: cover;
 	height: 100vh;
 	padding-bottom: 10px;
+	/*border-bottom: 1px solid black;*/
+}
+
+#taxi-content-wrap {
+	padding-top: 30px;
 }
 
 .header-mob {
@@ -101,10 +108,12 @@ a {
 	background-color: #000000;
 	border: 2px solid #ffffff;
 	border-radius: 3px;
+	font-weight: bold;
 } 
 
 .header button:hover {	
 	background-color: #E7382B;
+	/*opacity: 1;*/
 } 
 
 .btn-connect-wrapper {
@@ -165,17 +174,17 @@ a {
 }
 
 .main-screen h1 {
-	font-size: 42px;
+	font-size: 36px;
 	font-weight: 700;
 	font-family: 'Open Sans Condensed', sans-serif;
 	margin-top: 20px;
     letter-spacing: 2px;
 }
 
-.main-screen-taxi h1, h3 {
+.main-screen-taxi h1 {
     background-color: rgb(0, 0, 0);
     color: yellow;
-    opacity: 0.8;
+    opacity: 0.85;
     margin-top: 0px;
     padding-bottom: 20px;
     text-align: center;
@@ -627,7 +636,9 @@ input[type="checkbox"] {
 #btn-check-us, 
 #btn-check-us-mob,
 #btn-our-experience,
-#btn-our-experience-mob {
+#btn-our-experience-mob,
+#btn-connect-taxi,
+#btn-connect-taxi-mob {
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 22px;
@@ -645,7 +656,8 @@ input[type="checkbox"] {
 #btn-check-us:hover,
 #btn-check-us-mob:hover,
 #btn-our-experience:hover,
-#btn-our-experience-mob:hover {
+#btn-our-experience-mob:hover,
+#btn-connect-taxi:hover {
 	background-color: #339933;
 }
 
@@ -1001,12 +1013,6 @@ input[type="checkbox"] {
 		margin-right: auto;
 	}
 
-
-/*	#modal-free-consult-footer .modal-dialog {
-		width: 310px;
-		margin-left: auto;
-		margin-right: auto;
-	}*/
 	#btn-free-consult-mob {
 		font-size: 11px;
 	}
@@ -1036,8 +1042,15 @@ input[type="checkbox"] {
 	.main-screen h1 {
 	    font-size: 28px;
 	}
+	.main-screen-taxi h1 {
+		font-size: 24px;
+		padding-bottom: 10px;
+	}
 	.main-screen {
 		background-position: 45%;
+	}
+	.main-screen-taxi {
+		height: 50vh;
 	}
 	.btn-connect-wrapper {
 	    margin-left: 15px;
@@ -1046,9 +1059,6 @@ input[type="checkbox"] {
 	.what-can-order ul {
 		margin-left: 10px;
 	}
-/*	.for-accountants {
-		padding-bottom: 0px;	
-	}*/
 }
 
 @media screen and (max-device-width: 379px) {
