@@ -51,6 +51,16 @@ a {
 	height: 100vh;
 }
 
+.main-screen-taxi {
+	background-color: #000000;
+	color: #ffffff;
+	background-image: url("imgs/taxi-bg-1920-900.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	padding-bottom: 10px;
+}
+
 .header-mob {
 	background-color: #028090;
 	color: #ffffff;
@@ -160,6 +170,15 @@ a {
 	font-family: 'Open Sans Condensed', sans-serif;
 	margin-top: 20px;
     letter-spacing: 2px;
+}
+
+.main-screen-taxi h1, h3 {
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+    opacity: 0.8;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .main-screen-mob h1 {
