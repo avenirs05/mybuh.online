@@ -27,7 +27,7 @@
 ?>
 
 <div class="main-screen main-screen-taxi">
-    <?php require_once 'header.php'; ?>
+    <?php require_once 'header-viber.php'; ?>
     <h1>Первая бухгалтерская компания для партнеров Uber, Gett, Yandex и других</h1>
 </div>
 

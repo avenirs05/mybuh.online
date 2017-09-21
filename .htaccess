@@ -1,1 +1,13 @@
 AddDefaultCharset Off
+
+    Options +FollowSymLinks
+    Options -Indexes
+    DirectoryIndex index.php
+
+    RewriteEngine On
+    RewriteBase /   
+
+ RewriteRule taxi$ /taxi.php [NS,L]
+ RewriteRule cap$ /cap.php [NS,L]
+
+
