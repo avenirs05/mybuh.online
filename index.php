@@ -83,7 +83,7 @@
             <a id="taxi-img-link" href="taxi.php" class="visible-md-block visible-lg-block" target="_blank"><img id="for-taxi-img" src="imgs/taxi-icon.png" width="150" alt=""></a>   
             
             <a id="taxi-link-mob" href="taxi.php" class="text-center visible-xs-block visible-sm-block" target="_blank"><span class="text-center">Для партнеров Uber, Gett, Yandex</span></a>     
-            <a id="taxi-img-link-mob" href="taxi.php" class="visible-xs-block visible-sm-block" target="_blank"><img id="for-taxi-img" src="imgs/taxi-icon.png" width="150" alt=""></a>  
+            <a id="taxi-img-link-mob" href="taxi.php" class="visible-xs-block visible-sm-block" target="_blank"><img id="for-taxi-img" src="imgs/taxi-icon.png" width="150" alt=""></a> 
 
         </div>
     </div>
