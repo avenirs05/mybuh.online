@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <meta name="format-detection" content="telephone=no" />
+    <meta property="og:image" content="http://mybuh.online/imgs/taxi-bg-1920-900.jpg" />
+    <meta property="og:title" content="" />
 	
     <title>Бухгалтерская компания</title>
     
@@ -76,7 +78,13 @@
                 <li>Налоговые и бухгалтерские консультации</li>
                 <li>Аудит</li>
                 <li>Любую другую помощь в области налогов и бухучета</li>
-            </ul>              
+            </ul>  
+            <a id="taxi-link" href="taxi.php" class="visible-md-block visible-lg-block" target="_blank">Для партнеров Uber, Gett, Yandex</a>     
+            <a id="taxi-img-link" href="taxi.php" class="visible-md-block visible-lg-block" target="_blank"><img id="for-taxi-img" src="imgs/taxi-icon.png" width="150" alt=""></a>   
+            
+            <a id="taxi-link-mob" href="taxi.php" class="text-center visible-xs-block visible-sm-block" target="_blank"><span class="text-center">Для партнеров Uber, Gett, Yandex</span></a>     
+            <a id="taxi-img-link-mob" href="taxi.php" class="visible-xs-block visible-sm-block" target="_blank"><img id="for-taxi-img" src="imgs/taxi-icon.png" width="150" alt=""></a>  
+
         </div>
     </div>
 </div>

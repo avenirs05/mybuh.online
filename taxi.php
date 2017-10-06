@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <meta name="format-detection" content="telephone=no" />
+    <meta property="og:image" content="http://mybuh.online/imgs/taxi-bg-1920-900.jpg" />
+    <meta property="og:title" content="" />
 	
     <title>Бухгалтерия для партнеров агрегаторов такси</title>
     

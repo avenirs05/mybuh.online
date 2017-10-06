@@ -8,6 +8,6 @@ AddDefaultCharset Off
     RewriteBase /   
 
  RewriteRule taxi$ /taxi.php [NS,L]
- RewriteRule cap$ /cap.php [NS,L]
+ RewriteRule cab$ /cab.php [NS,L]
 
 

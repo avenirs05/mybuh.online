@@ -39,9 +39,7 @@ a {
 	color: #ffffff;
 	padding-left: 70px;
 	padding-right: 70px;
-	opacity: 0.85;
-	/*margin-bottom: -1px;*/
-	
+	opacity: 0.85;	
 }
 
 .messenger-img {
@@ -65,7 +63,6 @@ a {
 	background-size: cover;
 	height: 100vh;
 	padding-bottom: 10px;
-	/*border-bottom: 1px solid black;*/
 }
 
 #taxi-content-wrap {
@@ -117,7 +114,6 @@ a {
 
 .header button:hover {	
 	background-color: #E7382B;
-	/*opacity: 1;*/
 } 
 
 .btn-connect-wrapper {
@@ -527,6 +523,38 @@ input[type="checkbox"] {
 	background-size: cover;
 	color: #ffffff;
 	padding-bottom: 10px;
+	position: relative;
+}
+
+.what-can-order img  {
+
+}
+
+
+#taxi-link {
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	font-size: 18px;
+	color: yellow;	
+}
+
+#taxi-link-mob {
+	font-size: 18px;
+	color: yellow;	
+	margin-bottom: 10px;
+}
+
+#taxi-img-link {
+	position: absolute;
+	top: 50px;
+	right: 0px;
+}
+
+#taxi-img-link-mob img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .what-can-order li {
@@ -537,10 +565,6 @@ input[type="checkbox"] {
 	background-color: #333333;
 	color: #ffffff;
 }
-
-/*.for-accountants {
-	padding-bottom: 30px;	
-}*/
 
 .for-accountants h2 {
 	font-size: 36px;
@@ -986,9 +1010,13 @@ input[type="checkbox"] {
 	.what-can-order ul {
 		margin-left: 15px;
 	}
-	#messenger-img-mob {
+	.cons-phone .messenger-img-mob {
 		width: 32px;
 		margin-top: 11px;
+	}
+
+	.cons-phone .messenger-img-mob.viber-icon {
+		margin-right: -3px;
 	}
 }
 
@@ -1036,9 +1064,14 @@ input[type="checkbox"] {
 	.header img {
 		width: 40%;
 	}
-	#messenger-img-mob {
+	.cons-phone .messenger-img-mob {
+		/*height: 20px;*/
 		width: 20px;
 		margin-top: 6px;
+		/*margin-right: -3px;*/
+	}
+	.cons-phone .messenger-img-mob.viber-icon {
+		margin-right: -3px;
 	}
 	.header .phone-digits {
 		font-size: 22px;

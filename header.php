@@ -7,9 +7,10 @@
                 <div class="cons-phone">
                     <!-- <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> -->
                     &nbsp;
-                    <img class="visible-md-block visible-lg-block messenger-img" src="/imgs/whatsapp.png" alt="" width="32">
-                    <img id="messenger-img-mob" class="visible-sm-block visible-xs-block" src="/imgs/whatsapp.png" alt="">              
-                    <span class="phone-digits">+7 967 012 77 95</span> 
+                    <img class="visible-md-block visible-lg-block messenger-img" src="/imgs/viber_whatsapp_icon.png" alt="" height="32">
+                    <img class="messenger-img-mob whatsapp-icon visible-sm-block visible-xs-block" src="/imgs/whatsapp.png" alt="">
+                    <img class="messenger-img-mob viber-icon visible-sm-block visible-xs-block " src="/imgs/viber.png" alt="">             
+                    <span class="phone-digits">+7 989 622 08 19</span> 
                 </div>
             </div> 
         </div>
