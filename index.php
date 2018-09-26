@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <meta name="format-detection" content="telephone=no" />
+	<meta name="yandex-verification" content="736294db93cf48bb" />
     <meta property="og:image" content="http://mybuh.online/imgs/taxi-bg-1920-900.jpg" />
     <meta property="og:title" content="" />
 	
@@ -285,5 +286,5 @@
         </div>
     </div>
 </div>
-<!-- test -->
+<!-- testdd -->
 <?php require_once 'footer.php'; ?>
